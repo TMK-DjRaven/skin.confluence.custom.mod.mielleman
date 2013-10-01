@@ -3,7 +3,7 @@ confluence.custom.mod.mielleman
 
 ## Based on
  * [confluence.custom.mod](https://github.com/Mudislander/skin.confluence.custom.mod) by Mudislander
- * [Confluence](https://github.com/xbmc/xbmc/tree/master/addons/skin.confluence), the XBMC Default Skin by [Jezz_X](https://github.com/JezzX)
+ * [Confluence](https://github.com/xbmc/xbmc/tree/master/addons/skin.confluence) by [Jezz_X](https://github.com/JezzX) (the XBMC Default Skin)
 
 ## Tweaks
  * Improves Live TV listings when using the [TVHeadend](https://tvheadend.org/) PVR plugin for XBMC Frodo and later
@@ -13,7 +13,7 @@ confluence.custom.mod.mielleman
 ### Mac OSX
  * Stop XBMC
  * Open a terminal
- * Make sure you have the [git commandline tools](http://guides.beanstalkapp.com/version-control/git-on-mac.html)
+ * Make sure you have the [git command line tools](http://guides.beanstalkapp.com/version-control/git-on-mac.html)
  * Go to your XBMC addons directory
 
 ```
