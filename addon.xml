@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
-  id="skin.confluence.custom.mod"
-  version="1.3.2"
-  name="Confluence Customizable Mod"
+  id="skin.confluence.custom.mod.mielleman"
+  version="1.3.2.1"
+  name="Confluence Customizable Mod (mielleman)"
   provider-name="Mudislander">
   <requires>
 	<import addon="xbmc.gui" version="4.0.0"/>
