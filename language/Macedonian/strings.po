@@ -180,10 +180,6 @@ msgctxt "#31106"
 msgid "Miscellaneous options"
 msgstr "Разни опции"
 
-msgctxt "#31107"
-msgid "Hide Flagging read from video filenames [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
-msgstr "Hide Flagging read from video filenames [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
-
 msgctxt "#31110"
 msgid "Background path:"
 msgstr "Патека на позадината:"
@@ -195,10 +191,6 @@ msgstr "Опции"
 msgctxt "#31119"
 msgid "Hide Background Fanart"
 msgstr "Сокриј позадина"
-
-msgctxt "#31124"
-msgid "Show Background \"Now Playing\" Video"
-msgstr "Прикажи сегашен филм во позадина"
 
 msgctxt "#31125"
 msgid "Show Background \"Now Playing\" Visualization"
@@ -471,6 +463,26 @@ msgstr "Germany"
 msgctxt "#31703"
 msgid "Australia"
 msgstr "Australia"
+
+msgctxt "#31704"
+msgid "Japan"
+msgstr "Japan"
+
+msgctxt "#31705"
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+msgctxt "#31706"
+msgid "Brazil"
+msgstr "Brazil"
+
+msgctxt "#31708"
+msgid "Canada"
+msgstr "Canada"
+
+msgctxt "#31709"
+msgid "Ireland"
+msgstr "Ireland"
 
 msgctxt "#31901"
 msgid "36 Hour Forecast"

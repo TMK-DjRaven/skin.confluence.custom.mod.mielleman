@@ -88,6 +88,10 @@ msgctxt "#31033"
 msgid "Info"
 msgstr "Informácie"
 
+msgctxt "#31036"
+msgid "Coverflow"
+msgstr "Coverflow"
+
 msgctxt "#31040"
 msgid "Now Playing"
 msgstr "Práve hrá"
@@ -180,10 +184,6 @@ msgctxt "#31106"
 msgid "Miscellaneous options"
 msgstr "Rôzne nastavenia"
 
-msgctxt "#31107"
-msgid "Hide Flagging read from video filenames [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
-msgstr "Nezobrazovať ikonky zdroja videa [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
-
 msgctxt "#31110"
 msgid "Background path:"
 msgstr "Cesta k pozadiu:"
@@ -195,10 +195,6 @@ msgstr "Možnosti"
 msgctxt "#31119"
 msgid "Hide Background Fanart"
 msgstr "Skryť Fanart na pozadí"
-
-msgctxt "#31124"
-msgid "Show Background \"Now Playing\" Video"
-msgstr "Zobrazovať práve prehrávané video na pozadí"
 
 msgctxt "#31125"
 msgid "Show Background \"Now Playing\" Visualization"
@@ -368,6 +364,10 @@ msgctxt "#31331"
 msgid "Album Details"
 msgstr "Detaily albumu"
 
+msgctxt "#31333"
+msgid "Startup"
+msgstr "Spustenie"
+
 msgctxt "#31351"
 msgid "Pause"
 msgstr "Pauza"
@@ -519,6 +519,26 @@ msgstr "Nemecko"
 msgctxt "#31703"
 msgid "Australia"
 msgstr "Austrália"
+
+msgctxt "#31704"
+msgid "Japan"
+msgstr "Japonsko"
+
+msgctxt "#31705"
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+msgctxt "#31706"
+msgid "Brazil"
+msgstr "Brazília"
+
+msgctxt "#31708"
+msgid "Canada"
+msgstr "Kanada"
+
+msgctxt "#31709"
+msgid "Ireland"
+msgstr "Írsko"
 
 msgctxt "#31901"
 msgid "36 Hour Forecast"

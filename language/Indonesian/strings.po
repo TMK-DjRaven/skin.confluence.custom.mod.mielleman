@@ -88,6 +88,10 @@ msgctxt "#31033"
 msgid "Info"
 msgstr "Info"
 
+msgctxt "#31036"
+msgid "Coverflow"
+msgstr "Memainkannya"
+
 msgctxt "#31040"
 msgid "Now Playing"
 msgstr "Sedang Memainkan"
@@ -175,10 +179,6 @@ msgstr "Mainkan Trailer pada jendela [COLOR=grey3](Hanya Informasi Dialog Saja)[
 msgctxt "#31106"
 msgid "Miscellaneous options"
 msgstr "Opsi Lainnya"
-
-msgctxt "#31107"
-msgid "Hide Flagging read from video filenames [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
-msgstr "Sembunyikan penandaan baca dari nama berkas video [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
 
 msgctxt "#31112"
 msgid "Options"

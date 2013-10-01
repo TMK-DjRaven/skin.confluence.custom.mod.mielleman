@@ -309,7 +309,7 @@
 								<visible>!IsEmpty(ListItem.PlotOutline)</visible>
 							</item>
 							<item>
-								<label>$LOCALIZE[20074]:</label>
+								<label>$LOCALIZE[31078]:</label>
 								<label2>$INFO[ListItem.mpaa]</label2>
 								<onclick>noop</onclick>
 								<visible>!IsEmpty(ListItem.mpaa)</visible>
@@ -972,6 +972,7 @@
 						<description>Play Trailer</description>
 						<include>ButtonInfoDialogsCommonValues</include>
 						<label>20410</label>
+						<visible>!Skin.HasSetting(EnableMinSpec)</visible>
 						<visible>!IsEmpty(ListItem.Trailer) + !Skin.HasSetting(WindowedTrailer)</visible>
 					</control>
 					<control type="button" id="15">
@@ -979,6 +980,7 @@
 						<include>ButtonInfoDialogsCommonValues</include>
 						<label>20410</label>
 						<onclick>PlayMedia($INFO[ListItem.Trailer],1)</onclick>
+						<visible>!Skin.HasSetting(EnableMinSpec)</visible>
 						<visible>!IsEmpty(ListItem.Trailer) + Skin.HasSetting(WindowedTrailer)</visible>
 					</control>
 					<control type="button" id="100">
@@ -1011,6 +1013,6 @@
 				</control>
 			</control>
 		</control>
-		<include>Clock</include>
+		<include>UserLocalInfo</include>
 	</controls>
 </window>

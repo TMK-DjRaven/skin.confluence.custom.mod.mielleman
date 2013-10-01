@@ -92,6 +92,18 @@ msgctxt "#31033"
 msgid "Info"
 msgstr "Info"
 
+msgctxt "#31034"
+msgid "Vertical Logo"
+msgstr "Logo vertical"
+
+msgctxt "#31035"
+msgid "Low List"
+msgstr "Lista baja"
+
+msgctxt "#31036"
+msgid "Coverflow"
+msgstr "Wall"
+
 msgctxt "#31040"
 msgid "Now Playing"
 msgstr "Reproduciendo ahora"
@@ -160,6 +172,10 @@ msgctxt "#31073"
 msgid "Show Story Plot on Pause"
 msgstr "Mostrar el argumento cuando pausemos"
 
+msgctxt "#31074"
+msgid "Clean Library"
+msgstr "Limpiar Biblioteca"
+
 msgctxt "#31085"
 msgid "Shuffle On"
 msgstr "Shuffle Encendido"
@@ -192,10 +208,6 @@ msgctxt "#31106"
 msgid "Miscellaneous options"
 msgstr "Opciones de miscelánea"
 
-msgctxt "#31107"
-msgid "Hide Flagging read from video filenames [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
-msgstr "Ocultar marcas de lectura de archivos de vídeo [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
-
 msgctxt "#31110"
 msgid "Background path:"
 msgstr "Ruta de Fondo:"
@@ -219,10 +231,6 @@ msgstr "Conciertos"
 msgctxt "#31123"
 msgid "OpenElec OS"
 msgstr "SO OpenELEC"
-
-msgctxt "#31124"
-msgid "Show Background \"Now Playing\" Video"
-msgstr "Mostrar vídeo en reproducción en el fondo"
 
 msgctxt "#31125"
 msgid "Show Background \"Now Playing\" Visualization"
@@ -268,6 +276,10 @@ msgctxt "#31144"
 msgid "Clear Menu Option"
 msgstr "Limpiar opciones de menú"
 
+msgctxt "#31145"
+msgid "Nodes"
+msgstr "Nodos"
+
 msgctxt "#31146"
 msgid "Cinema"
 msgstr "Cinema Experience"
@@ -299,6 +311,10 @@ msgstr "Ajustes predeterminados"
 msgctxt "#31163"
 msgid "Radio 105"
 msgstr "Radio 105"
+
+msgctxt "#31164"
+msgid "Monte Carlo"
+msgstr "Monte Carlo"
 
 msgctxt "#31167"
 msgid "Watch it Later"
@@ -355,6 +371,10 @@ msgstr "Conciertos recientes"
 msgctxt "#31185"
 msgid "Random Concerts"
 msgstr "Conciertos aleatorios"
+
+msgctxt "#31189"
+msgid "Theme"
+msgstr "Tema"
 
 msgctxt "#31203"
 msgid "Choose Your Song"
@@ -479,6 +499,10 @@ msgstr "Detalles del disco"
 msgctxt "#31332"
 msgid "Family"
 msgstr "Familiar"
+
+msgctxt "#31333"
+msgid "Startup"
+msgstr "Utilizar Scrollbar"
 
 msgctxt "#31351"
 msgid "Pause"
@@ -696,9 +720,25 @@ msgctxt "#31625"
 msgid "Western"
 msgstr "Westerns"
 
+msgctxt "#31672"
+msgid "Hide RainDrop Effect"
+msgstr "Ocultar efecto lluvia"
+
+msgctxt "#31673"
+msgid "Enable Album Art Background Wall"
+msgstr "Habilitar imágen de fondo para el álbum"
+
+msgctxt "#31674"
+msgid "Menu Item - 1 - Remembers Last Submenu Action Used"
+msgstr "Elemento 1 de  menú - Recordar la última acción de submenú usada"
+
 msgctxt "#31700"
 msgid "United States"
 msgstr "Estados Unidos"
+
+msgctxt "#31701"
+msgid "Great Britian"
+msgstr "Gran Bretaña"
 
 msgctxt "#31702"
 msgid "Germany"
@@ -707,6 +747,26 @@ msgstr "Alemania"
 msgctxt "#31703"
 msgid "Australia"
 msgstr "Australia"
+
+msgctxt "#31704"
+msgid "Japan"
+msgstr "Japón"
+
+msgctxt "#31705"
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+msgctxt "#31706"
+msgid "Brazil"
+msgstr "Brasil"
+
+msgctxt "#31708"
+msgid "Canada"
+msgstr "Canadá"
+
+msgctxt "#31709"
+msgid "Ireland"
+msgstr "Irlanda"
 
 msgctxt "#31901"
 msgid "36 Hour Forecast"

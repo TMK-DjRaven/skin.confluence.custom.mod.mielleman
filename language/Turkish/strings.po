@@ -88,6 +88,10 @@ msgctxt "#31033"
 msgid "Info"
 msgstr "Bilgi"
 
+msgctxt "#31036"
+msgid "Coverflow"
+msgstr "Coverflow"
+
 msgctxt "#31040"
 msgid "Now Playing"
 msgstr "Şimdi Çalınıyor"
@@ -184,10 +188,6 @@ msgctxt "#31106"
 msgid "Miscellaneous options"
 msgstr "Çeşitli seçenekler"
 
-msgctxt "#31107"
-msgid "Hide Flagging read from video filenames [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
-msgstr "Video dosya adlarında etiket okumayı gizle [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
-
 msgctxt "#31110"
 msgid "Background path:"
 msgstr "Arka plan yolu:"
@@ -199,10 +199,6 @@ msgstr "Seçenekler"
 msgctxt "#31119"
 msgid "Hide Background Fanart"
 msgstr "Arkaplan Fanartını Gizle"
-
-msgctxt "#31124"
-msgid "Show Background \"Now Playing\" Video"
-msgstr "Arkaplanda Oynatılan Videoyu Göster"
 
 msgctxt "#31125"
 msgid "Show Background \"Now Playing\" Visualization"
@@ -511,6 +507,26 @@ msgstr "Almanya"
 msgctxt "#31703"
 msgid "Australia"
 msgstr "Avustralya"
+
+msgctxt "#31704"
+msgid "Japan"
+msgstr "Japonya"
+
+msgctxt "#31705"
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+msgctxt "#31706"
+msgid "Brazil"
+msgstr "Brezilya"
+
+msgctxt "#31708"
+msgid "Canada"
+msgstr "Kanada"
+
+msgctxt "#31709"
+msgid "Ireland"
+msgstr "İslanda"
 
 msgctxt "#31901"
 msgid "36 Hour Forecast"

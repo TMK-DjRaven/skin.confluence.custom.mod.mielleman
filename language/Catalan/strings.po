@@ -88,6 +88,14 @@ msgctxt "#31033"
 msgid "Info"
 msgstr "Informació"
 
+msgctxt "#31035"
+msgid "Low List"
+msgstr "Llista baixa"
+
+msgctxt "#31036"
+msgid "Coverflow"
+msgstr "Coverflow"
+
 msgctxt "#31040"
 msgid "Now Playing"
 msgstr "S'està reproduint"
@@ -180,10 +188,6 @@ msgctxt "#31106"
 msgid "Miscellaneous options"
 msgstr "Opcions vàries"
 
-msgctxt "#31107"
-msgid "Hide Flagging read from video filenames [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
-msgstr "Amaga les marques de lectura dels fitxers de vídeo [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
-
 msgctxt "#31110"
 msgid "Background path:"
 msgstr "Camí del fons:"
@@ -199,10 +203,6 @@ msgstr "Amaga el fanart del fons"
 msgctxt "#31121"
 msgid "Concerts"
 msgstr "Concerts"
-
-msgctxt "#31124"
-msgid "Show Background \"Now Playing\" Video"
-msgstr "Mostra el vídeo en reproducció en el fons"
 
 msgctxt "#31125"
 msgid "Show Background \"Now Playing\" Visualization"
@@ -651,6 +651,26 @@ msgstr "Alemanya"
 msgctxt "#31703"
 msgid "Australia"
 msgstr "Austràlia"
+
+msgctxt "#31704"
+msgid "Japan"
+msgstr "Japó"
+
+msgctxt "#31705"
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+msgctxt "#31706"
+msgid "Brazil"
+msgstr "Brasil"
+
+msgctxt "#31708"
+msgid "Canada"
+msgstr "Canadà"
+
+msgctxt "#31709"
+msgid "Ireland"
+msgstr "Irlanda"
 
 msgctxt "#31901"
 msgid "36 Hour Forecast"

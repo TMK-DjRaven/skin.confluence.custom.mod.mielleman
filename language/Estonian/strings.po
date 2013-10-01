@@ -88,6 +88,14 @@ msgctxt "#31033"
 msgid "Info"
 msgstr "Info"
 
+msgctxt "#31035"
+msgid "Low List"
+msgstr "Madal nimekiri"
+
+msgctxt "#31036"
+msgid "Coverflow"
+msgstr "Kaanevoog"
+
 msgctxt "#31040"
 msgid "Now Playing"
 msgstr "Hetkel mängib"
@@ -180,10 +188,6 @@ msgctxt "#31106"
 msgid "Miscellaneous options"
 msgstr "Mitmesugused seaded"
 
-msgctxt "#31107"
-msgid "Hide Flagging read from video filenames [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
-msgstr "Peida loetud märgistus videofailide nimedest [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
-
 msgctxt "#31110"
 msgid "Background path:"
 msgstr "Taustapildi asukoht:"
@@ -195,10 +199,6 @@ msgstr "Valikud"
 msgctxt "#31119"
 msgid "Hide Background Fanart"
 msgstr "Peida fännipiltide taust"
-
-msgctxt "#31124"
-msgid "Show Background \"Now Playing\" Video"
-msgstr "Näita taustal \"Hetkel mängib\" videot"
 
 msgctxt "#31125"
 msgid "Show Background \"Now Playing\" Visualization"
@@ -507,6 +507,26 @@ msgstr "Saksamaa"
 msgctxt "#31703"
 msgid "Australia"
 msgstr "Austraalia"
+
+msgctxt "#31704"
+msgid "Japan"
+msgstr "Jaapan"
+
+msgctxt "#31705"
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+msgctxt "#31706"
+msgid "Brazil"
+msgstr "Brasiilia"
+
+msgctxt "#31708"
+msgid "Canada"
+msgstr "Kanada"
+
+msgctxt "#31709"
+msgid "Ireland"
+msgstr "Iirimaa"
 
 msgctxt "#31901"
 msgid "36 Hour Forecast"

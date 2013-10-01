@@ -5,16 +5,16 @@
 	<allowoverlay>no</allowoverlay>
 	<controls>
 		<include condition="Skin.HasSetting(ShowBackgroundAlbumWall)">AlbumArtMusicVizWall</include>
-		<include condition="!Skin.HasSetting(HideBackGroundFanart) + !Skin.HasSetting(ShowBackgroundAlbumWall)">MusicPlayingBottom</include>
+		<include condition="!Skin.HasSetting(ShowBackgroundAlbumWall)">MusicPlayingBottom</include>
 		<control type="visualisation" id="2">
 			<description>visualisation</description>
 			<include>Dimensions_Fullscreen</include>
 		</control>
-		<include condition="!Skin.HasSetting(HideBackGroundFanart) + !Skin.HasSetting(ShowBackgroundAlbumWall)">MusicPlayingTop</include>
+		<include condition="!Skin.HasSetting(ShowBackgroundAlbumWall)">MusicPlayingTop</include>
 		<!-- media infos -->
 		<control type="group">
 			<animation effect="fade" time="200">VisibleChange</animation>
-			<visible>[Player.ShowInfo | Window.IsActive(MusicOSD)] + ![Window.IsVisible(AddonSettings) | Window.IsVisible(SelectDialog) | Window.IsVisible(VisualisationPresetList)]</visible>
+			<visible>[Player.ShowInfo | Window.IsActive(MusicOSD) | Window.IsVisible(infodialog)] + ![Window.IsVisible(AddonSettings) | Window.IsVisible(SelectDialog) | Window.IsVisible(VisualisationPresetList)]</visible>
 			<control type="image">
 				<posx>0</posx>
 				<posy>-150</posy>
@@ -34,8 +34,13 @@
 				<textcolor>white</textcolor>
 				<shadowcolor>black</shadowcolor>
 				<label>$VAR[MusicHeaderLabel]</label>
+				<animation effect="fade" start="100" end="0" time="200" condition="Window.IsVisible(infodialog)">Conditional</animation>
 			</control>
-			<include>Clock</include>
+			<include>UserLocalInfo</include>
+		</control>
+		<control type="group">
+			<animation effect="fade" time="200">VisibleChange</animation>
+			<visible>[Player.ShowInfo | Window.IsActive(MusicOSD)] + ![Window.IsVisible(AddonSettings) | Window.IsVisible(SelectDialog) | Window.IsVisible(VisualisationPresetList)]</visible>
 			<control type="image">
 				<posx>0</posx>
 				<posy>230r</posy>
@@ -107,6 +112,16 @@
 					<height>78</height>
 					<texture fallback="xbmc-logo.png">$INFO[Player.FolderPath,,../logo.png]</texture>
 					<aspectratio aligny="bottom" align="left">keep</aspectratio>
+					<visible>IsEmpty(Skin.String(PhysicalMusicFolder))</visible>
+				</control>
+				<control type="image">
+					<posx>0</posx>
+					<posy>-10</posy>
+					<width>200</width>
+					<height>78</height>
+					<texture fallback="xbmc-logo.png">$INFO[Skin.String(PhysicalMusicFolder)]/$INFO[MusicPlayer.Artist]/logo.png</texture>
+					<aspectratio aligny="bottom" align="left">keep</aspectratio>
+					<visible>!IsEmpty(Skin.String(PhysicalMusicFolder))</visible>
 				</control>
 				<control type="label" id="1">
 					<description>Artist label</description>

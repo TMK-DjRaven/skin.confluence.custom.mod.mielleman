@@ -23,7 +23,7 @@
 				<include>Dimensions_Fullscreen</include>
 				<aspectratio>scale</aspectratio>
 				<include>VisibleFadeEffect</include>
-				<texture>$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</texture>
+				<texture fallback="special://skin/backgrounds/SKINDEFAULT.jpg">$INFO[Skin.CurrentTheme,special://skin/backgrounds/,.jpg]</texture>
 				<visible>[!Skin.HasSetting(GlobalWeatherFanart) + IsEmpty(Skin.String(CustomBackgroundPath))] | [Skin.HasSetting(GlobalWeatherFanart) + !Window.IsVisible(home)]</visible>
 			</control>
 			<control type="multiimage">
@@ -253,7 +253,8 @@
 		</control>
 		<control type="image">
 			<include>Dimensions_Fullscreen</include>
-			<texture>special://skin/backgrounds/media-overlay.jpg</texture>
+			<texture>media-overlay.jpg</texture>
+			<visible>!Skin.HasSetting(EnableMinSpec)</visible>
 			<visible>Player.HasVideo + ![Window.IsVisible(PVR) + [Control.IsVisible(11) | Control.IsVisible(12)]]</visible>
 			<include>VisibleFadeEffect</include>
 		</control>
@@ -268,6 +269,7 @@
 		</control>
 		<control type="videowindow">
 			<include>Dimensions_Fullscreen</include>
+			<visible>!Skin.HasSetting(EnableMinSpec)</visible>
 			<visible>Player.HasVideo + ![Window.IsVisible(PVR) + [Control.IsVisible(11) | Control.IsVisible(12)]]</visible>
 		</control>
 		<control type="image">
@@ -276,7 +278,6 @@
 			<width>1280</width>
 			<height>120</height>
 			<texture flipy="true">HomeNowPlayingBack.png</texture>
-			<visible>Player.HasVideo | [Player.HasAudio + ![Skin.HasSetting(ShowBackgroundVis) | SubString(Window(videolibrary).Property(TvTunesIsAlive),True)]] | [!Skin.HasSetting(HideBackGroundFanart) + !IsEmpty(ListItem.Property(Fanart_Image))]</visible>
 			<include>VisibleFadeEffect</include>
 		</control>
 	</include>
@@ -534,6 +535,25 @@
 					<posx>460</posx>
 					<posy>652</posy>
 					<width>770</width>
+					<height>64</height>
+					<texture border="15">ContentPanelMirror.png</texture>
+				</control>
+			</control>
+			<control type="group">
+				<include>VisibleFadeEffect</include>
+				<visible>Control.IsVisible(724)</visible>
+				<control type="image">
+					<posx>25</posx>
+					<posy>420</posy>
+					<width>1250</width>
+					<height>240</height>
+					<texture border="15">ContentPanel.png</texture>
+					<include condition="!IsEmpty(Skin.String(MediaPanelTrans))">TransparentEffect</include>
+				</control>
+				<control type="image">
+					<posx>25</posx>
+					<posy>652</posy>
+					<width>1250</width>
 					<height>64</height>
 					<texture border="15">ContentPanelMirror.png</texture>
 				</control>

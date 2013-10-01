@@ -88,6 +88,14 @@ msgctxt "#31033"
 msgid "Info"
 msgstr "Upplýsingar"
 
+msgctxt "#31035"
+msgid "Low List"
+msgstr "Lár listi"
+
+msgctxt "#31036"
+msgid "Coverflow"
+msgstr "Plötuumslag"
+
 msgctxt "#31040"
 msgid "Now Playing"
 msgstr "Í spilun"
@@ -180,10 +188,6 @@ msgctxt "#31106"
 msgid "Miscellaneous options"
 msgstr "Ýmsir valkostir"
 
-msgctxt "#31107"
-msgid "Hide Flagging read from video filenames [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
-msgstr "Fela flagg lesið frá skráarnöfnum [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
-
 msgctxt "#31112"
 msgid "Options"
 msgstr "Valkostir"
@@ -191,10 +195,6 @@ msgstr "Valkostir"
 msgctxt "#31119"
 msgid "Hide Background Fanart"
 msgstr "Fela aðdáendamyndir í bakgrunni"
-
-msgctxt "#31124"
-msgid "Show Background \"Now Playing\" Video"
-msgstr "Sýna \"Í spilun\" myndband í bakgrunni"
 
 msgctxt "#31125"
 msgid "Show Background \"Now Playing\" Visualization"
@@ -459,6 +459,26 @@ msgstr "Þýskaland"
 msgctxt "#31703"
 msgid "Australia"
 msgstr "Ástralía"
+
+msgctxt "#31704"
+msgid "Japan"
+msgstr "Japan"
+
+msgctxt "#31705"
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+msgctxt "#31706"
+msgid "Brazil"
+msgstr "Brasilía"
+
+msgctxt "#31708"
+msgid "Canada"
+msgstr "Canada"
+
+msgctxt "#31709"
+msgid "Ireland"
+msgstr "Írland"
 
 msgctxt "#31901"
 msgid "36 Hour Forecast"

@@ -8,7 +8,7 @@
 			<width>1160</width>
 			<height>460</height>
 			<onup>9000</onup>
-			<ondown>61</ondown>
+			<ondown>82</ondown>
 			<usecontrolcoords>true</usecontrolcoords>
 			<include>VisibleFadeEffect</include>
 			<control type="fixedlist" id="501">
@@ -39,8 +39,19 @@
 						<bordersize>4</bordersize>
 						<texture background="true">$VAR[PosterThumb]</texture>
 					</control>
+					<control type="image">
+						<posx>2</posx>
+						<posy>40</posy>
+						<width>214</width>
+						<height>310</height>
+						<aspectratio>stretch</aspectratio>
+						<bordertexture border="5">button-nofocus.png</bordertexture>
+						<bordersize>4</bordersize>
+						<texture>black-back.png</texture>
+						<colordiffuse>AAFFFFFF</colordiffuse>
+					</control>
 					<control type="group">
-						<visible>Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay)</visible>
+						<visible>!Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay)</visible>
 						<control type="image">
 							<posx>107</posx>
 							<posy>44</posy>
@@ -83,8 +94,22 @@
 						<animation reversible="false" effect="zoom" start="-2,36,222,318" end="-28,0,284,390" time="200">focus</animation>
 						<animation reversible="false" effect="zoom" end="-2,36,222,318" start="-28,0,284,390" time="200">unfocus</animation>
 					</control>
+					<control type="image">
+						<posx>-2</posx>
+						<posy>36</posy>
+						<width>222</width>
+						<height>318</height>
+						<aspectratio>stretch</aspectratio>
+						<bordertexture border="8">ThumbBorder.png</bordertexture>
+						<bordersize>8</bordersize>
+						<texture>black-back.png</texture>
+						<colordiffuse>AAFFFFFF</colordiffuse>
+						<animation reversible="false" effect="fade" start="100" end="0" time="0">focus</animation>
+						<animation reversible="false" effect="zoom" start="-2,36,222,318" end="-28,0,284,390" time="200">focus</animation>
+						<animation reversible="false" effect="zoom" end="-2,36,222,318" start="-28,0,284,390" time="200">unfocus</animation>
+					</control>
 					<control type="group">
-						<visible>Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay)</visible>
+						<visible>!Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay)</visible>
 						<control type="image">
 							<posx>108</posx>
 							<posy>43</posy>
@@ -126,6 +151,7 @@
 						<height>180</height>
 						<aspectratio>stretch</aspectratio>
 						<texture>GlassOverlay.png</texture>
+						<animation reversible="false" effect="fade" start="100" end="0" time="0">unfocus</animation>
 						<animation reversible="false" effect="zoom" start="6,44,170,180" end="-24,4,240,250" time="200">focus</animation>
 						<animation reversible="false" effect="zoom" end="6,44,170,180" start="-24,4,240,250" time="200">unfocus</animation>
 					</control>
@@ -144,7 +170,7 @@
 							<effect type="fade" start="100" end="0" time="200" />
 							<effect type="slide" end="0,0" start="40,40" time="200" />
 						</animation>
-						<visible>!Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay) + !stringcompare(Skin.String(WatchStatusType),Hidden)</visible>
+						<visible>Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay) + !stringcompare(Skin.String(WatchStatusType),Hidden)</visible>
 					</control>
 				</focusedlayout>
 			</control>
@@ -159,8 +185,9 @@
 				<textureslidernib>ScrollBarNib.png</textureslidernib>
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onup>501</onup>
-				<ondown>9000</ondown>
-				<showonepage>false</showonepage>
+				<ondown condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</ondown>
+				<ondown condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</ondown>
+				<showonepage>true</showonepage>
 				<orientation>horizontal</orientation>
 				<visible>Control.IsVisible(501)</visible>
 			</control>
@@ -221,7 +248,7 @@
 				<itemgap>0</itemgap>
 				<orientation>horizontal</orientation>
 				<include>MultiVideoGenreFlagging</include>
-				<visible>Skin.HasSetting(View501GenreIcons)</visible>
+				<visible>!Skin.HasSetting(View501GenreIcons)</visible>
 			</control>
 			<control type="grouplist">
 				<description>Media Genre Flagging</description>
@@ -232,7 +259,7 @@
 				<itemgap>0</itemgap>
 				<orientation>horizontal</orientation>
 				<include>GenreText</include>
-				<visible>Skin.HasSetting(View501GenreIcons)</visible>
+				<visible>!Skin.HasSetting(View501GenreIcons)</visible>
 			</control>
 			<control type="label">
 				<posx>0</posx>
@@ -246,7 +273,7 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<label>$INFO[ListItem.Duration,$LOCALIZE[2050] , $LOCALIZE[12391]]</label>
-				<visible>!Skin.HasSetting(View501GenreIcons)</visible>
+				<visible>Skin.HasSetting(View501GenreIcons)</visible>
 			</control>
 			<control type="grouplist">
 				<description>Media Codec Flagging Images</description>
@@ -262,7 +289,7 @@
 				<include>AudioChannelsFlaggingConditions</include>
 				<include>AspectCodecFlaggingConditions</include>
 				<include>VideoTypeHackFlaggingConditions</include>
-				<visible>!Skin.HasSetting(View501GenreIcons)</visible>
+				<visible>Skin.HasSetting(View501GenreIcons)</visible>
 			</control>
 		</control>
 		<control type="group">
@@ -341,7 +368,7 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<label>$INFO[ListItem.Genre]</label>
-				<visible>!Skin.HasSetting(View501GenreIcons)</visible>
+				<visible>Skin.HasSetting(View501GenreIcons)</visible>
 			</control>
 			<control type="label">
 				<posx>0</posx>
@@ -354,7 +381,7 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<label>$INFO[ListItem.Episode,, $LOCALIZE[20453]]</label>
-				<animation effect="slide" start="0,0" end="0,-45" time="0" condition="Skin.HasSetting(View501GenreIcons)">Conditional</animation>
+				<animation effect="slide" start="0,0" end="0,-45" time="0" condition="!Skin.HasSetting(View501GenreIcons)">Conditional</animation>
 			</control>
 			<control type="label">
 				<posx>0</posx>
@@ -367,7 +394,7 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<label>($INFO[ListItem.Property(WatchedEpisodes),, $LOCALIZE[16102]] - $INFO[ListItem.Property(UnWatchedEpisodes), , $LOCALIZE[16101]])</label>
-				<animation effect="slide" start="0,0" end="0,-55" time="0" condition="Skin.HasSetting(View501GenreIcons)">Conditional</animation>
+				<animation effect="slide" start="0,0" end="0,-55" time="0" condition="!Skin.HasSetting(View501GenreIcons)">Conditional</animation>
 			</control>
 			<control type="grouplist">
 				<description>Media Genre Flagging</description>
@@ -378,7 +405,7 @@
 				<itemgap>0</itemgap>
 				<orientation>horizontal</orientation>
 				<include>MultiVideoGenreFlagging</include>
-				<visible>Skin.HasSetting(View501GenreIcons)</visible>
+				<visible>!Skin.HasSetting(View501GenreIcons)</visible>
 			</control>
 			<control type="grouplist">
 				<description>Media Genre Flagging</description>
@@ -389,7 +416,7 @@
 				<itemgap>0</itemgap>
 				<orientation>horizontal</orientation>
 				<include>GenreText</include>
-				<visible>Skin.HasSetting(View501GenreIcons)</visible>
+				<visible>!Skin.HasSetting(View501GenreIcons)</visible>
 			</control>
 		</control>
 	</include>
@@ -457,7 +484,7 @@
 						<texture background="true">$VAR[PosterThumb]</texture>
 					</control>
 					<control type="group">
-						<visible>Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay)</visible>
+						<visible>!Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay)</visible>
 						<control type="image">
 							<posx>48</posx>
 							<posy>24</posy>
@@ -547,10 +574,10 @@
 							<effect type="fade" start="100" end="0" time="200" />
 							<effect type="slide" end="0,0" start="10,5" time="200" />
 						</animation>
-						<visible>!Skin.HasSetting(ViewStatusBanner) +!stringcompare(Skin.String(WatchStatusType),Hidden) + !IsEmpty(ListItem.Overlay)</visible>
+						<visible>Skin.HasSetting(ViewStatusBanner) +!stringcompare(Skin.String(WatchStatusType),Hidden) + !IsEmpty(ListItem.Overlay)</visible>
 					</control>
 					<control type="group">
-						<visible>Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay)</visible>
+						<visible>!Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay)</visible>
 						<control type="image">
 							<posx>48</posx>
 							<posy>24</posy>
@@ -610,8 +637,9 @@
 				<textureslidernib>ScrollBarNib.png</textureslidernib>
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onup>508</onup>
-				<ondown>2</ondown>
-				<showonepage>false</showonepage>
+				<ondown condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</ondown>
+				<ondown condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</ondown>
+				<showonepage>true</showonepage>
 				<orientation>horizontal</orientation>
 				<visible>Control.IsVisible(508)</visible>
 			</control>
@@ -848,8 +876,9 @@
 				<textureslidernib>ScrollBarNib.png</textureslidernib>
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onleft>503</onleft>
-				<onright>2</onright>
-				<showonepage>false</showonepage>
+				<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
+				<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
+				<showonepage>true</showonepage>
 				<orientation>vertical</orientation>
 				<visible>Control.IsVisible(503)</visible>
 			</control>
@@ -1356,8 +1385,9 @@
 				<textureslidernib>ScrollBarNib.png</textureslidernib>
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onleft>504</onleft>
-				<onright>2</onright>
-				<showonepage>false</showonepage>
+				<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
+				<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
+				<showonepage>true</showonepage>
 				<orientation>vertical</orientation>
 				<visible>Control.IsVisible(504)</visible>
 			</control>
@@ -1859,8 +1889,9 @@
 				<textureslidernib>ScrollBarNib.png</textureslidernib>
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onleft>515</onleft>
-				<onright>2</onright>
-				<showonepage>false</showonepage>
+				<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">9000</onright>
+				<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
+				<showonepage>true</showonepage>
 				<orientation>vertical</orientation>
 				<visible>Control.IsVisible(515)</visible>
 			</control>
@@ -2550,7 +2581,7 @@
 						<visible>!StringCompare(ListItem.Label,..)</visible>
 					</control>
 					<control type="group">
-						<visible>Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay)</visible>
+						<visible>!Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay)</visible>
 						<control type="image">
 							<posx>54</posx>
 							<posy>5</posy>
@@ -2598,7 +2629,7 @@
 						<height>50</height>
 						<aspectratio>keep</aspectratio>
 						<texture>$VAR[WatchTypePath,OverlayStatus/]</texture>
-						<visible>!Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay) + !stringcompare(Skin.String(WatchStatusType),Hidden)</visible>
+						<visible>Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay) + !stringcompare(Skin.String(WatchStatusType),Hidden)</visible>
 					</control>
 				</itemlayout>
 				<focusedlayout height="205" width="142">
@@ -2623,7 +2654,7 @@
 							<bordertexture border="8">ThumbBorder.png</bordertexture>
 						</control>
 						<control type="group">
-							<visible>Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay)</visible>
+							<visible>!Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay)</visible>
 							<control type="image">
 								<posx>54</posx>
 								<posy>7</posy>
@@ -2659,7 +2690,7 @@
 							<height>50</height>
 							<aspectratio>keep</aspectratio>
 							<texture>$VAR[WatchTypePath,OverlayStatus/]</texture>
-							<visible>!Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay) + !stringcompare(Skin.String(WatchStatusType),Hidden)</visible>
+							<visible>Skin.HasSetting(ViewStatusBanner) + !IsEmpty(ListItem.Overlay) + !stringcompare(Skin.String(WatchStatusType),Hidden)</visible>
 						</control>
 					</control>
 				</focusedlayout>

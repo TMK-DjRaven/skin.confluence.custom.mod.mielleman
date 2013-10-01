@@ -92,6 +92,18 @@ msgctxt "#31033"
 msgid "Info"
 msgstr "Infó"
 
+msgctxt "#31034"
+msgid "Vertical Logo"
+msgstr "Vertikális Logo"
+
+msgctxt "#31035"
+msgid "Low List"
+msgstr "Kis Lista"
+
+msgctxt "#31036"
+msgid "Coverflow"
+msgstr "Borítófolyam"
+
 msgctxt "#31040"
 msgid "Now Playing"
 msgstr "Most játszva"
@@ -164,6 +176,10 @@ msgctxt "#31073"
 msgid "Show Story Plot on Pause"
 msgstr "Filminfó mutatása pillanat álljnál"
 
+msgctxt "#31074"
+msgid "Clean Library"
+msgstr "Könyvtár tisztítása"
+
 msgctxt "#31084"
 msgid "Enable XBMC Intro Movie"
 msgstr "XBMC bemutató videó engedélyezése"
@@ -200,10 +216,6 @@ msgctxt "#31106"
 msgid "Miscellaneous options"
 msgstr "Egyéb beállítások"
 
-msgctxt "#31107"
-msgid "Hide Flagging read from video filenames [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
-msgstr "Fájlnevekből olvasott filmjellemzők elrejtése [COLOR=grey3](BR, HD-DVD)[/COLOR]"
-
 msgctxt "#31110"
 msgid "Background path:"
 msgstr "Háttér mappa: "
@@ -223,10 +235,6 @@ msgstr "Fanart-háttér elrejtése"
 msgctxt "#31121"
 msgid "Concerts"
 msgstr "Koncertek"
-
-msgctxt "#31124"
-msgid "Show Background \"Now Playing\" Video"
-msgstr "A háttérben az éppen játszott videó megjelenítése"
 
 msgctxt "#31125"
 msgid "Show Background \"Now Playing\" Visualization"
@@ -408,6 +416,10 @@ msgctxt "#31303"
 msgid "Data provider"
 msgstr "Adatszolgáltató"
 
+msgctxt "#31307"
+msgid "Delay Info Popup"
+msgstr "Késleltetés infó"
+
 msgctxt "#31308"
 msgid "Movie Details"
 msgstr "Film részletek"
@@ -499,6 +511,10 @@ msgstr "Album részletek"
 msgctxt "#31332"
 msgid "Family"
 msgstr "Családi"
+
+msgctxt "#31333"
+msgid "Startup"
+msgstr "Indítás"
 
 msgctxt "#31351"
 msgid "Pause"
@@ -716,6 +732,18 @@ msgctxt "#31625"
 msgid "Western"
 msgstr "Western"
 
+msgctxt "#31672"
+msgid "Hide RainDrop Effect"
+msgstr "Esőcsepp effekt elrejtése"
+
+msgctxt "#31673"
+msgid "Enable Album Art Background Wall"
+msgstr "Albumkép használata háttérképnek"
+
+msgctxt "#31674"
+msgid "Menu Item - 1 - Remembers Last Submenu Action Used"
+msgstr "Menü elem - 1 - Az utoljára használt almenü akciót megjegyzi"
+
 msgctxt "#31698"
 msgid "Media Certification Country"
 msgstr "Filmek ország szerinti korcsoport besorolása"
@@ -735,6 +763,26 @@ msgstr "Németország"
 msgctxt "#31703"
 msgid "Australia"
 msgstr "Ausztrália"
+
+msgctxt "#31704"
+msgid "Japan"
+msgstr "Japán"
+
+msgctxt "#31705"
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+msgctxt "#31706"
+msgid "Brazil"
+msgstr "Brazília"
+
+msgctxt "#31708"
+msgid "Canada"
+msgstr "Kanada"
+
+msgctxt "#31709"
+msgid "Ireland"
+msgstr "Írország"
 
 msgctxt "#31901"
 msgid "36 Hour Forecast"

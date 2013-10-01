@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <window>
 	<defaultcontrol>1</defaultcontrol>
-	<visible>[Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding]</visible>
+	<visible>[Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding] | [Window.IsVisible(home) + Player.Playing]</visible>
 	<visible>Window.IsVisible(FullscreenVideo) | Window.IsVisible(home)</visible>
 	<animation effect="fade" start="0" end="100" time="200">WindowOpen</animation>
 	<animation effect="fade" start="100" end="0" time="200">WindowClose</animation>
 	<controls>
 		<control type="group">
+			<!--
 			<animation effect="slide" end="-1025,-400" time="0" tween="back" easing="out" condition="Window.IsVisible(home) + !VideoPlayer.Content(Episodes)" reversible="true">Conditional</animation>
 			<animation effect="slide" end="-975,-400" time="0" tween="back" easing="out" condition="Window.IsVisible(home) + VideoPlayer.Content(Episodes)" reversible="true">Conditional</animation>
 			<animation effect="slide" end="0,175" time="0" tween="back" easing="out" condition="Window.IsVisible(home) + !Skin.HasSetting(RaiseMainMenuBar)" reversible="true">Conditional</animation>
+		-->
 			<posx>520r</posx>
 			<posy>-6</posy>
 			<control type="group">
@@ -139,9 +141,9 @@
 				<visible>!Window.IsVisible(home)</visible>
 				<control type="label">
 					<description>Playing Label</description>
-					<posx>110r</posx>
-					<posy>40r</posy>
-					<width>240</width>
+					<posx>410</posx>
+					<posy>35r</posy>
+					<width>130</width>
 					<height>20</height>
 					<align>right</align>
 					<aligny>center</aligny>
@@ -152,9 +154,9 @@
 				</control>
 				<control type="label">
 					<description>Paused Label</description>
-					<posx>110r</posx>
-					<posy>40r</posy>
-					<width>240</width>
+					<posx>410</posx>
+					<posy>35r</posy>
+					<width>130</width>
 					<height>20</height>
 					<align>right</align>
 					<aligny>center</aligny>
@@ -165,9 +167,9 @@
 				</control>
 				<control type="label">
 					<description>Cache Label</description>
-					<posx>110r</posx>
-					<posy>40r</posy>
-					<width>240</width>
+					<posx>410</posx>
+					<posy>35r</posy>
+					<width>130</width>
 					<height>20</height>
 					<align>right</align>
 					<aligny>center</aligny>
@@ -178,9 +180,9 @@
 				</control>
 				<control type="label">
 					<description>Seeking Label</description>
-					<posx>110r</posx>
-					<posy>40r</posy>
-					<width>240</width>
+					<posx>410</posx>
+					<posy>35r</posy>
+					<width>130</width>
 					<height>20</height>
 					<align>right</align>
 					<aligny>center</aligny>
@@ -191,9 +193,9 @@
 				</control>
 				<control type="label">
 					<description>Final Seek amount Label</description>
-					<posx>110r</posx>
-					<posy>40r</posy>
-					<width>240</width>
+					<posx>410</posx>
+					<posy>35r</posy>
+					<width>130</width>
 					<height>20</height>
 					<align>right</align>
 					<aligny>center</aligny>
@@ -204,9 +206,9 @@
 				</control>
 				<control type="label">
 					<description>FF Label</description>
-					<posx>110r</posx>
-					<posy>40r</posy>
-					<width>240</width>
+					<posx>410</posx>
+					<posy>35r</posy>
+					<width>130</width>
 					<height>20</height>
 					<align>right</align>
 					<aligny>center</aligny>
@@ -217,9 +219,9 @@
 				</control>
 				<control type="label">
 					<description>RW Label</description>
-					<posx>110r</posx>
-					<posy>40r</posy>
-					<width>240</width>
+					<posx>410</posx>
+					<posy>35r</posy>
+					<width>130</width>
 					<height>20</height>
 					<align>right</align>
 					<aligny>center</aligny>

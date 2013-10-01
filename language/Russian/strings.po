@@ -92,6 +92,18 @@ msgctxt "#31033"
 msgid "Info"
 msgstr "Информация"
 
+msgctxt "#31034"
+msgid "Vertical Logo"
+msgstr "Логотипы по вертикали"
+
+msgctxt "#31035"
+msgid "Low List"
+msgstr "Список снизу"
+
+msgctxt "#31036"
+msgid "Coverflow"
+msgstr "Карусель постеров"
+
 msgctxt "#31040"
 msgid "Now Playing"
 msgstr "Сейчас воспроизводится:"
@@ -204,17 +216,9 @@ msgctxt "#31073"
 msgid "Show Story Plot on Pause"
 msgstr "Показывать Сюжет при Паузе"
 
-msgctxt "#31077"
-msgid "Show Video Now Playing Info"
-msgstr "Показывать информацию о проигрываемом видео"
-
-msgctxt "#31078"
-msgid "Show Music Now Playing Info"
-msgstr "Показывать информацию о проигрываемой музыке"
-
-msgctxt "#31079"
-msgid "Show Current Weather Info"
-msgstr "Показывать сведения о текущей погоде"
+msgctxt "#31074"
+msgid "Clean Library"
+msgstr "Очистка медиатеки"
 
 msgctxt "#31081"
 msgid "Configure Service.Skin.Widgets"
@@ -292,10 +296,6 @@ msgctxt "#31106"
 msgid "Miscellaneous options"
 msgstr "Различные параметры"
 
-msgctxt "#31107"
-msgid "Hide Flagging read from video filenames [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
-msgstr "Скрыть флаги, полученные из имени видеофайла [COLOR=grey3](BluRray, HDTV)[/COLOR]"
-
 msgctxt "#31108"
 msgid "Show Submenu Items"
 msgstr "Показывать элементы подменю "
@@ -331,10 +331,6 @@ msgstr "Концерты"
 msgctxt "#31123"
 msgid "OpenElec OS"
 msgstr "OpenElec OS"
-
-msgctxt "#31124"
-msgid "Show Background \"Now Playing\" Video"
-msgstr "Воспроизводимое видео в качестве фона"
 
 msgctxt "#31125"
 msgid "Show Background \"Now Playing\" Visualization"
@@ -564,6 +560,10 @@ msgctxt "#31306"
 msgid "Hide Logo"
 msgstr "Скрыть лого"
 
+msgctxt "#31307"
+msgid "Delay Info Popup"
+msgstr "Задержка появления Описания"
+
 msgctxt "#31308"
 msgid "Movie Details"
 msgstr "Сведения о фильме"
@@ -663,6 +663,10 @@ msgstr "Сведения об альбоме"
 msgctxt "#31332"
 msgid "Family"
 msgstr "Семейный"
+
+msgctxt "#31333"
+msgid "Startup"
+msgstr "При запуске"
 
 msgctxt "#31351"
 msgid "Pause"
@@ -888,6 +892,18 @@ msgctxt "#31625"
 msgid "Western"
 msgstr "Вестерн"
 
+msgctxt "#31672"
+msgid "Hide RainDrop Effect"
+msgstr "Скрыть Эффект Капель"
+
+msgctxt "#31673"
+msgid "Enable Album Art Background Wall"
+msgstr "Включить Album Art Background Wall"
+
+msgctxt "#31674"
+msgid "Menu Item - 1 - Remembers Last Submenu Action Used"
+msgstr "Пункт Меню - 1 - Назначить последний использованный пункт подменю"
+
 msgctxt "#31698"
 msgid "Media Certification Country"
 msgstr "Страна Сертификации содержимого"
@@ -907,6 +923,26 @@ msgstr "Германия"
 msgctxt "#31703"
 msgid "Australia"
 msgstr "Австралия"
+
+msgctxt "#31704"
+msgid "Japan"
+msgstr "Япония"
+
+msgctxt "#31705"
+msgid "Hong Kong"
+msgstr "Гонконг"
+
+msgctxt "#31706"
+msgid "Brazil"
+msgstr "Бразилия"
+
+msgctxt "#31708"
+msgid "Canada"
+msgstr "Канада"
+
+msgctxt "#31709"
+msgid "Ireland"
+msgstr "Ирландия"
 
 msgctxt "#31901"
 msgid "36 Hour Forecast"

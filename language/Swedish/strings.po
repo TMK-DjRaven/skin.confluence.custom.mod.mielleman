@@ -92,6 +92,14 @@ msgctxt "#31033"
 msgid "Info"
 msgstr "Info"
 
+msgctxt "#31035"
+msgid "Low List"
+msgstr "Low List"
+
+msgctxt "#31036"
+msgid "Coverflow"
+msgstr "Omslagsflöde"
+
 msgctxt "#31040"
 msgid "Now Playing"
 msgstr "Nu spelas"
@@ -160,6 +168,10 @@ msgctxt "#31073"
 msgid "Show Story Plot on Pause"
 msgstr "Visa berättelsesummering vid paus"
 
+msgctxt "#31074"
+msgid "Clean Library"
+msgstr "Städa bibliotek"
+
 msgctxt "#31084"
 msgid "Enable XBMC Intro Movie"
 msgstr "Aktivera XBMC introfilm"
@@ -196,10 +208,6 @@ msgctxt "#31106"
 msgid "Miscellaneous options"
 msgstr "Övriga alternativ"
 
-msgctxt "#31107"
-msgid "Hide Flagging read from video filenames [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
-msgstr "Dölj flaggläsning från videofilnamn [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
-
 msgctxt "#31110"
 msgid "Background path:"
 msgstr "Bakgrundsökväg:"
@@ -219,10 +227,6 @@ msgstr "Dölj bakgrundsfanart"
 msgctxt "#31121"
 msgid "Concerts"
 msgstr "Konserter"
-
-msgctxt "#31124"
-msgid "Show Background \"Now Playing\" Video"
-msgstr "Visa bakgrund i \"Nu spelas\" filmer"
 
 msgctxt "#31125"
 msgid "Show Background \"Now Playing\" Visualization"
@@ -368,6 +372,10 @@ msgctxt "#31185"
 msgid "Random Concerts"
 msgstr "Slumpmässiga konserter"
 
+msgctxt "#31189"
+msgid "Theme"
+msgstr "Tema"
+
 msgctxt "#31203"
 msgid "Choose Your Song"
 msgstr "Välj din låt"
@@ -491,6 +499,10 @@ msgstr "Albumdetaljer"
 msgctxt "#31332"
 msgid "Family"
 msgstr "Famij"
+
+msgctxt "#31333"
+msgid "Startup"
+msgstr "Använd Scrollbar"
 
 msgctxt "#31351"
 msgid "Pause"
@@ -708,6 +720,18 @@ msgctxt "#31625"
 msgid "Western"
 msgstr "Västern"
 
+msgctxt "#31672"
+msgid "Hide RainDrop Effect"
+msgstr "Dölj regndroppseffekt"
+
+msgctxt "#31673"
+msgid "Enable Album Art Background Wall"
+msgstr "Aktivera albumkonstbakgrundsvägg"
+
+msgctxt "#31674"
+msgid "Menu Item - 1 - Remembers Last Submenu Action Used"
+msgstr "Menyobjekt - 1 - Kommer ihåg undermenyaktionen som användes"
+
 msgctxt "#31700"
 msgid "United States"
 msgstr "USA"
@@ -723,6 +747,26 @@ msgstr "Tyskland"
 msgctxt "#31703"
 msgid "Australia"
 msgstr "Australien"
+
+msgctxt "#31704"
+msgid "Japan"
+msgstr "Japan"
+
+msgctxt "#31705"
+msgid "Hong Kong"
+msgstr "Hongkong"
+
+msgctxt "#31706"
+msgid "Brazil"
+msgstr "Brasilien"
+
+msgctxt "#31708"
+msgid "Canada"
+msgstr "Kanada"
+
+msgctxt "#31709"
+msgid "Ireland"
+msgstr "Irland"
 
 msgctxt "#31901"
 msgid "36 Hour Forecast"

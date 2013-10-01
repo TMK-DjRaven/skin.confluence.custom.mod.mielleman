@@ -1,3 +1,65 @@
+[B]1.3.2[/B]
+- Updated language files from Transifex
+
+B]1.3.1[/B] [I]Aug 2013[/I]
+- [WIP] Added Minimum Spec Option
+- Added Suggested Media Button
+- Added Trak.tv Button
+- Adjusted OSD Button position & defaults
+- Bugfixes OSD Info, OSD Year, login Logo, Poster Floor Button, Search & FullScreen Icons, Music Viz Fanart, Volume Bar
+- Added More Menu Item Selections
+
+B]1.3.0[/B] [I]Aug 2013[/I]
+- Added option for 10 Submenu items
+- Added Toggle Autostart Music Viz
+
+[B]1.2.1[/B] [I]July 2013[/I] - BugFix Version
+- Show volumebar when use on screen volume buttons
+- Weather widget onclick refresh weather conditions & advance to next location
+- Add music folder path for better compilation artist fanart
+- Fixed Duplicate date in Video OSD
+- Fixed XBMC logo visible while Info Dialog up & Music Viz + Fullscreen Video
+- Fixed Bug in User Friendly Submenu Names
+- Fixed Video OSD Volume Buttons
+- Set Scrollbars to visible to enable back/home buttons
+- Fix TV Views showing wrong label
+
+[B]1.2.0[/B] [I]July 2013[/I]
+- Rearranged All Dialog Info Screens Resulting in Version Bump
+- Added CoverFlow Media View
+- Tweaked Poster Media View
+- Added On Screen Volume Buttons
+- Moved NowPlaying to Right of Screen
+
+[B]1.1.10[/B] [I]July 2013[/I]
+- User Test Version
+- Added option to hide HomeScreen AddOn names
+- [WIP] Media Cert by User Choice Country
+- Temp Disable LastFMBan toggle
+- Added Disc Type case Toggle
+- Tweaked Vertical Logo View
+- Tweaked Initial Install Defaults
+- General Code Cleanup
+
+[B]1.1.9[/B] [I]July 2013[/I]
+- Added option to Disable Busy Animation
+- Bugfix Recent Items Widgets
+- Increased Submenu Sets to 10 with friendly names
+- Added Menu options Random Slideshow & Clean Library
+- Increased Addon Sets to 10
+- Added LowList View
+- Added Home and Back Floor buttons
+
+[B]1.1.8[/B] [I]July 2013[/I]
+- Added option to edit Concerts,Pictures & Program submenu items
+- Added option to adjust home screen addon names
+- Added Initial startup & profile login background
+- Bugfix various typo's & fallback images
+- Updated language files from Transifex
+
+[B]1.1.7[/B] [I]July 2013[/I]
+- User Test Version
+
 [B]1.1.6[/B] [I]June 2013[/I]
 - Added Weather widget
 - Added Favourites widget

@@ -286,25 +286,10 @@
 				<textureslidernib>ScrollBarNib.png</textureslidernib>
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onleft>11</onleft>
-				<onright>32</onright>
-				<showonepage>false</showonepage>
+				<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">32</onright>
+				<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
+				<showonepage>true</showonepage>
 				<orientation>vertical</orientation>
-			</control>
-			<control type="label">
-				<animation effect="slide" start="0,0" end="-90,0" time="0" condition="system.getbool(input.enablemouse)">Conditional</animation>
-				<description>Page Count Label</description>
-				<posx>40r</posx>
-				<posy>53r</posy>
-				<width>500</width>
-				<height>20</height>
-				<font>font12</font>
-				<textcolor>grey</textcolor>
-				<scroll>false</scroll>
-				<align>right</align>
-				<aligny>center</aligny>
-				<label>([COLOR=blue]$INFO[Container(11).NumItems][/COLOR]) $LOCALIZE[19019] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(11).CurrentPage]/$INFO[Container(11).NumPages][/COLOR])</label>
-				<include>Window_OpenClose_Animation</include>
-				<visible>!Skin.HasSetting(HideNumItemsCount)</visible>
 			</control>
 		</control>
 	</include>
@@ -594,25 +579,10 @@
 				<textureslidernib>ScrollBarNib.png</textureslidernib>
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onleft>12</onleft>
-				<onright>33</onright>
-				<showonepage>false</showonepage>
+				<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">33</onright>
+				<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
+				<showonepage>true</showonepage>
 				<orientation>vertical</orientation>
-			</control>
-			<control type="label">
-				<animation effect="slide" start="0,0" end="-90,0" time="0" condition="system.getbool(input.enablemouse)">Conditional</animation>
-				<description>Page Count Label</description>
-				<posx>40r</posx>
-				<posy>53r</posy>
-				<width>500</width>
-				<height>20</height>
-				<font>font12</font>
-				<textcolor>grey</textcolor>
-				<scroll>false</scroll>
-				<align>right</align>
-				<aligny>center</aligny>
-				<label>([COLOR=blue]$INFO[Container(12).NumItems][/COLOR]) $LOCALIZE[19019] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(12).CurrentPage]/$INFO[Container(12).NumPages][/COLOR])</label>
-				<include>Window_OpenClose_Animation</include>
-				<visible>!Skin.HasSetting(HideNumItemsCount)</visible>
 			</control>
 		</control>
 	</include>
@@ -799,25 +769,10 @@
 				<textureslidernib>ScrollBarNib.png</textureslidernib>
 				<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 				<onleft>13</onleft>
-				<onright>34</onright>
-				<showonepage>false</showonepage>
+				<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">34</onright>
+				<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
+				<showonepage>true</showonepage>
 				<orientation>vertical</orientation>
-			</control>
-			<control type="label">
-				<animation effect="slide" start="0,0" end="-90,0" time="0" condition="system.getbool(input.enablemouse)">Conditional</animation>
-				<description>Page Count Label</description>
-				<posx>40r</posx>
-				<posy>53r</posy>
-				<width>500</width>
-				<height>20</height>
-				<font>font12</font>
-				<textcolor>grey</textcolor>
-				<scroll>false</scroll>
-				<align>right</align>
-				<aligny>center</aligny>
-				<label>([COLOR=blue]$INFO[Container(13).NumItems][/COLOR]) $LOCALIZE[19163] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(13).CurrentPage]/$INFO[Container(13).NumPages][/COLOR])</label>
-				<include>Window_OpenClose_Animation</include>
-				<visible>!Skin.HasSetting(HideNumItemsCount)</visible>
 			</control>
 			<control type="group">
 				<posx>910</posx>
@@ -1331,8 +1286,9 @@
 					<textureslidernib>ScrollBarNib.png</textureslidernib>
 					<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 					<onleft>11</onleft>
-					<onright>35</onright>
-					<showonepage>false</showonepage>
+					<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">35</onright>
+					<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
+					<showonepage>true</showonepage>
 					<orientation>vertical</orientation>
 				</control>
 				<control type="image">
@@ -1358,22 +1314,6 @@
 					<label>$INFO[PVR.NextTimer]</label>
 					<visible>PVR.HasTimer</visible>
 				</control>
-			</control>
-			<control type="label">
-				<animation effect="slide" start="0,0" end="-90,0" time="0" condition="system.getbool(input.enablemouse)">Conditional</animation>
-				<description>Page Count Label</description>
-				<posx>40r</posx>
-				<posy>53r</posy>
-				<width>500</width>
-				<height>20</height>
-				<font>font12</font>
-				<textcolor>grey</textcolor>
-				<scroll>false</scroll>
-				<align>right</align>
-				<aligny>center</aligny>
-				<label>([COLOR=blue]$INFO[Container(14).NumItems][/COLOR]) $LOCALIZE[19040] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(14).CurrentPage]/$INFO[Container(14).NumPages][/COLOR])</label>
-				<include>Window_OpenClose_Animation</include>
-				<visible>!Skin.HasSetting(HideNumItemsCount)</visible>
 			</control>
 		</control>
 	</include>
@@ -1709,25 +1649,11 @@
 					<textureslidernib>ScrollBarNib.png</textureslidernib>
 					<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 					<onleft>16</onleft>
-					<onright>36</onright>
-					<showonepage>false</showonepage>
+					<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">36</onright>
+					<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
+					<showonepage>true</showonepage>
 					<orientation>vertical</orientation>
 				</control>
-			</control>
-			<control type="label">
-				<animation effect="slide" start="0,0" end="-90,0" time="0" condition="system.getbool(input.enablemouse)">Conditional</animation>
-				<description>Page Count Label</description>
-				<posx>40r</posx>
-				<posy>53r</posy>
-				<width>500</width>
-				<height>20</height>
-				<font>font12</font>
-				<textcolor>grey</textcolor>
-				<scroll>false</scroll>
-				<align>right</align>
-				<aligny>center</aligny>
-				<label>([COLOR=blue]$INFO[Container(17).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(17).CurrentPage]/$INFO[Container(17).NumPages][/COLOR])</label>
-				<visible>!Skin.HasSetting(HideNumItemsCount)</visible>
 			</control>
 		</control>
 	</include>
@@ -1976,7 +1902,7 @@
 							<textcolor>grey2</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<pagecontrol>-</pagecontrol>
-							<label>$VAR[VideoDescription]</label>
+							<label>$INFO[ListItem.Plot]</label>
 						</control>
 						<control type="image">
 							<posx>970</posx>
@@ -2033,25 +1959,11 @@
 					<textureslidernib>ScrollBarNib.png</textureslidernib>
 					<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 					<onleft>15</onleft>
-					<onright>31</onright>
-					<showonepage>false</showonepage>
+					<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">31</onright>
+					<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
+					<showonepage>true</showonepage>
 					<orientation>vertical</orientation>
 				</control>
-			</control>
-			<control type="label">
-				<animation effect="slide" start="0,0" end="-90,0" time="0" condition="system.getbool(input.enablemouse)">Conditional</animation>
-				<description>Page Count Label</description>
-				<posx>40r</posx>
-				<posy>53r</posy>
-				<width>500</width>
-				<height>20</height>
-				<font>font12</font>
-				<textcolor>grey</textcolor>
-				<scroll>false</scroll>
-				<align>right</align>
-				<aligny>center</aligny>
-				<label>([COLOR=blue]$INFO[Container(15).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(15).CurrentPage]/$INFO[Container(15).NumPages][/COLOR])</label>
-				<visible>!Skin.HasSetting(HideNumItemsCount)</visible>
 			</control>
 		</control>
 	</include>
@@ -2351,7 +2263,7 @@
 							<textcolor>grey2</textcolor>
 							<shadowcolor>black</shadowcolor>
 							<pagecontrol>-</pagecontrol>
-							<label>$VAR[VideoDescription]</label>
+							<label>$INFO[ListItem.Plot]</label>
 						</control>
 						<control type="image">
 							<posx>970</posx>
@@ -2408,25 +2320,11 @@
 					<textureslidernib>ScrollBarNib.png</textureslidernib>
 					<textureslidernibfocus>ScrollBarNib.png</textureslidernibfocus>
 					<onleft>16</onleft>
-					<onright>31</onright>
-					<showonepage>false</showonepage>
+					<onright condition="Skin.HasSetting(DisableHomeReturnButtons)">31</onright>
+					<onright condition="!Skin.HasSetting(DisableHomeReturnButtons)">82</onright>
+					<showonepage>true</showonepage>
 					<orientation>vertical</orientation>
 				</control>
-			</control>
-			<control type="label">
-				<animation effect="slide" start="0,0" end="-90,0" time="0" condition="system.getbool(input.enablemouse)">Conditional</animation>
-				<description>Page Count Label</description>
-				<posx>40r</posx>
-				<posy>53r</posy>
-				<width>500</width>
-				<height>20</height>
-				<font>font12</font>
-				<textcolor>grey</textcolor>
-				<scroll>false</scroll>
-				<align>right</align>
-				<aligny>center</aligny>
-				<label>([COLOR=blue]$INFO[Container(16).NumItems][/COLOR]) $LOCALIZE[31025] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(16).CurrentPage]/$INFO[Container(16).NumPages][/COLOR])</label>
-				<visible>!Skin.HasSetting(HideNumItemsCount)</visible>
 			</control>
 		</control>
 	</include>

@@ -92,6 +92,14 @@ msgctxt "#31033"
 msgid "Info"
 msgstr "Info"
 
+msgctxt "#31035"
+msgid "Low List"
+msgstr "Lav Liste"
+
+msgctxt "#31036"
+msgid "Coverflow"
+msgstr "Coverflow"
+
 msgctxt "#31040"
 msgid "Now Playing"
 msgstr "Spiller nu"
@@ -160,6 +168,10 @@ msgctxt "#31073"
 msgid "Show Story Plot on Pause"
 msgstr "Vis Plot ved Pause"
 
+msgctxt "#31074"
+msgid "Clean Library"
+msgstr "Ryd op i Bibliotek"
+
 msgctxt "#31084"
 msgid "Enable XBMC Intro Movie"
 msgstr "Aktiver XBMC Introfilm"
@@ -192,10 +204,6 @@ msgctxt "#31106"
 msgid "Miscellaneous options"
 msgstr "Diverse indstillinger"
 
-msgctxt "#31107"
-msgid "Hide Flagging read from video filenames [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
-msgstr "Skjul læsning af mærker fra videoers filnavne [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
-
 msgctxt "#31110"
 msgid "Background path:"
 msgstr "Sti til baggrund:"
@@ -215,10 +223,6 @@ msgstr "Skjul baggrundsfankunst"
 msgctxt "#31121"
 msgid "Concerts"
 msgstr "Koncerter"
-
-msgctxt "#31124"
-msgid "Show Background \"Now Playing\" Video"
-msgstr "Vis \"Spiller nu\" i baggrunden for videoer"
 
 msgctxt "#31125"
 msgid "Show Background \"Now Playing\" Visualization"
@@ -488,6 +492,10 @@ msgctxt "#31332"
 msgid "Family"
 msgstr "Familie"
 
+msgctxt "#31333"
+msgid "Startup"
+msgstr "Opstart"
+
 msgctxt "#31351"
 msgid "Pause"
 msgstr "Pause"
@@ -704,6 +712,18 @@ msgctxt "#31625"
 msgid "Western"
 msgstr "Western"
 
+msgctxt "#31672"
+msgid "Hide RainDrop Effect"
+msgstr "Skjul Regndråbe-effekt"
+
+msgctxt "#31673"
+msgid "Enable Album Art Background Wall"
+msgstr "Aktiver Baggrundsvæg med Albumkunst"
+
+msgctxt "#31674"
+msgid "Menu Item - 1 - Remembers Last Submenu Action Used"
+msgstr "Menuelement - 1 - Husker sidste handling i Undermenu"
+
 msgctxt "#31698"
 msgid "Media Certification Country"
 msgstr "Land til aldersvejledninger"
@@ -723,6 +743,26 @@ msgstr "Tyskland"
 msgctxt "#31703"
 msgid "Australia"
 msgstr "Australien"
+
+msgctxt "#31704"
+msgid "Japan"
+msgstr "Japan"
+
+msgctxt "#31705"
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+msgctxt "#31706"
+msgid "Brazil"
+msgstr "Brasilien"
+
+msgctxt "#31708"
+msgid "Canada"
+msgstr "Canada"
+
+msgctxt "#31709"
+msgid "Ireland"
+msgstr "Irland"
 
 msgctxt "#31901"
 msgid "36 Hour Forecast"

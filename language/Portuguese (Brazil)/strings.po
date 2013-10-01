@@ -92,6 +92,18 @@ msgctxt "#31033"
 msgid "Info"
 msgstr "Info"
 
+msgctxt "#31034"
+msgid "Vertical Logo"
+msgstr "Logo Vertical"
+
+msgctxt "#31035"
+msgid "Low List"
+msgstr "Lista Curta"
+
+msgctxt "#31036"
+msgid "Coverflow"
+msgstr "Coverflow"
+
 msgctxt "#31040"
 msgid "Now Playing"
 msgstr "Reproduzindo Agora"
@@ -160,6 +172,10 @@ msgctxt "#31073"
 msgid "Show Story Plot on Pause"
 msgstr "Apresentar Enredo ao Pausar"
 
+msgctxt "#31074"
+msgid "Clean Library"
+msgstr "Limpar Coleção"
+
 msgctxt "#31084"
 msgid "Enable XBMC Intro Movie"
 msgstr "Ativar XBMC filme Introdutório"
@@ -196,10 +212,6 @@ msgctxt "#31106"
 msgid "Miscellaneous options"
 msgstr "Opções diversas"
 
-msgctxt "#31107"
-msgid "Hide Flagging read from video filenames [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
-msgstr "Ocultar marcadores lidos do arquivo de vídeo [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
-
 msgctxt "#31110"
 msgid "Background path:"
 msgstr "Caminho imagem de fundo:"
@@ -219,10 +231,6 @@ msgstr "Ocultar fanart fundo da visualização"
 msgctxt "#31121"
 msgid "Concerts"
 msgstr "Concertos"
-
-msgctxt "#31124"
-msgid "Show Background \"Now Playing\" Video"
-msgstr "Exibir Vídeo \"Reproduzindo Agora\" no Fundo"
 
 msgctxt "#31125"
 msgid "Show Background \"Now Playing\" Visualization"
@@ -364,6 +372,10 @@ msgctxt "#31185"
 msgid "Random Concerts"
 msgstr "Concertos Randômicos"
 
+msgctxt "#31189"
+msgid "Theme"
+msgstr "Tema"
+
 msgctxt "#31203"
 msgid "Choose Your Song"
 msgstr "Escolha sua música"
@@ -399,6 +411,10 @@ msgstr "Outlook - "
 msgctxt "#31303"
 msgid "Data provider"
 msgstr "Provedor de Dados"
+
+msgctxt "#31307"
+msgid "Delay Info Popup"
+msgstr "Janela Info Atraso"
 
 msgctxt "#31308"
 msgid "Movie Details"
@@ -491,6 +507,10 @@ msgstr "Detalhes do Álbum"
 msgctxt "#31332"
 msgid "Family"
 msgstr "Família"
+
+msgctxt "#31333"
+msgid "Startup"
+msgstr "Inicialização"
 
 msgctxt "#31351"
 msgid "Pause"
@@ -708,6 +728,18 @@ msgctxt "#31625"
 msgid "Western"
 msgstr "Velho Oeste"
 
+msgctxt "#31672"
+msgid "Hide RainDrop Effect"
+msgstr "Ocultar Efeito RainDrop"
+
+msgctxt "#31673"
+msgid "Enable Album Art Background Wall"
+msgstr "Ativar arte álbum no segundo plano em Parede"
+
+msgctxt "#31674"
+msgid "Menu Item - 1 - Remembers Last Submenu Action Used"
+msgstr "Menu Item - 1 - Relembrar Últimas Ações Usadas no Submenu"
+
 msgctxt "#31698"
 msgid "Media Certification Country"
 msgstr "Mídia Certificação do país"
@@ -727,6 +759,26 @@ msgstr "Alemanha"
 msgctxt "#31703"
 msgid "Australia"
 msgstr "Austrália"
+
+msgctxt "#31704"
+msgid "Japan"
+msgstr "Japão"
+
+msgctxt "#31705"
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+msgctxt "#31706"
+msgid "Brazil"
+msgstr "Brasil"
+
+msgctxt "#31708"
+msgid "Canada"
+msgstr "Canadá"
+
+msgctxt "#31709"
+msgid "Ireland"
+msgstr "Irlanda"
 
 msgctxt "#31901"
 msgid "36 Hour Forecast"

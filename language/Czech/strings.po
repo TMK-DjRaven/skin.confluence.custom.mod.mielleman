@@ -88,6 +88,14 @@ msgctxt "#31033"
 msgid "Info"
 msgstr "Informace"
 
+msgctxt "#31035"
+msgid "Low List"
+msgstr "Nízký seznam"
+
+msgctxt "#31036"
+msgid "Coverflow"
+msgstr "Coverflow"
+
 msgctxt "#31040"
 msgid "Now Playing"
 msgstr "Nyní přehrávám"
@@ -184,10 +192,6 @@ msgctxt "#31106"
 msgid "Miscellaneous options"
 msgstr "Různá nastavení"
 
-msgctxt "#31107"
-msgid "Hide Flagging read from video filenames [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
-msgstr "Nezobrazovat ikony přečtené z názvu videa [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
-
 msgctxt "#31110"
 msgid "Background path:"
 msgstr "Cesta k obrázku:"
@@ -203,10 +207,6 @@ msgstr "Skrýt Fanart na pozadí"
 msgctxt "#31121"
 msgid "Concerts"
 msgstr "Koncerty"
-
-msgctxt "#31124"
-msgid "Show Background \"Now Playing\" Video"
-msgstr "Zobrazovat na pozadí právě přehrávané video"
 
 msgctxt "#31125"
 msgid "Show Background \"Now Playing\" Visualization"
@@ -567,6 +567,26 @@ msgstr "Německo"
 msgctxt "#31703"
 msgid "Australia"
 msgstr "Austrálie"
+
+msgctxt "#31704"
+msgid "Japan"
+msgstr "Japonsko"
+
+msgctxt "#31705"
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+msgctxt "#31706"
+msgid "Brazil"
+msgstr "Brazílie"
+
+msgctxt "#31708"
+msgid "Canada"
+msgstr "Kanada"
+
+msgctxt "#31709"
+msgid "Ireland"
+msgstr "Irsko"
 
 msgctxt "#31901"
 msgid "36 Hour Forecast"
