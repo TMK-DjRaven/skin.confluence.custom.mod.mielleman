@@ -7,7 +7,11 @@ confluence.custom.mod.mielleman
 
 ## Tweaks
  * Improves Live TV listings when using the [TVHeadend](https://tvheadend.org/) PVR plugin for XBMC Frodo and later
+ * Adds German Radio channels 'Das Ding' and 'SWR3', Belgian radio channel 'Studio Brussel' to the available streams
  * Some general tweaks to make my personal XBMC experience better
+
+## Requirements
+ * XBMC Frodo (v12) or later
 
 ## Install instructions
 ### Mac OSX
