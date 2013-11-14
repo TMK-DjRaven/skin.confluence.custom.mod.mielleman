@@ -1,6 +1,10 @@
 confluence.custom.mod.mielleman
 =====================
 
+![alt tag](https://raw.github.com/mielleman/skin.confluence.custom.mod.mielleman/master/fanart.jpg)
+
+![alt tag](https://raw.github.com/mielleman/skin.confluence.custom.mod.mielleman/master/livetv.jpg)
+
 ## Based on
  * [confluence.custom.mod](https://github.com/Mudislander/skin.confluence.custom.mod) by Mudislander
  * [Confluence](https://github.com/xbmc/xbmc/tree/master/addons/skin.confluence) by [Jezz_X](https://github.com/JezzX) (the XBMC Default Skin)
