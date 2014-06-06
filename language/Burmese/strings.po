@@ -32,6 +32,14 @@ msgctxt "#31009"
 msgid "Total Duration"
 msgstr "စုစုပေါင်းကြာချိန်"
 
+msgctxt "#31010"
+msgid "Found"
+msgstr "တွေ့ရှိသည်"
+
+msgctxt "#31019"
+msgid "Trailers"
+msgstr "ကြော်ငြာများ"
+
 msgctxt "#31022"
 msgid "Music - Files"
 msgstr "ဂီတ-ဖိုင်များ"
@@ -152,6 +160,14 @@ msgctxt "#31208"
 msgid "Upcoming Episodes"
 msgstr "နောက်လာမည့်အပိုင်းများ"
 
+msgctxt "#31213"
+msgid "Recently Added"
+msgstr "မကြာသေးခင်ကပေါင်းထည့်ခဲ့သော"
+
+msgctxt "#31217"
+msgid "Search"
+msgstr "ရှာဖွေမည်"
+
 msgctxt "#31301"
 msgid "Last Updated"
 msgstr "နောက်ဆုံး Update ဖြစ်ခဲ့စဉ်"
@@ -231,6 +247,10 @@ msgstr "ရုပ်ရှင်မီနူး"
 msgctxt "#31356"
 msgid "Download Subtitles"
 msgstr "စာတန်းထိုးများကို ဒေါင်းလုတ်ဆွဲမည်"
+
+msgctxt "#31408"
+msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from xbmc.org[CR]Modify Add-on settings"
+msgstr "[B]ADD-ONS ပြုပြင်ခြင်း[/B][CR][CR] သွင်းထားသည့် Add-on များကို ထိန်းညှိခြင်း ။ xbmc.org မှ Add-on များကို သွင်းရန် ကြည့်ရှုခြင်း[CR]Add-on များကို ပြုပြင် ပြောင်းလဲခြင်း"
 
 msgctxt "#31502"
 msgid "Live TV"

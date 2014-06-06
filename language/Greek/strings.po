@@ -48,6 +48,34 @@ msgctxt "#31009"
 msgid "Total Duration"
 msgstr "Συνολική Διάρκεια"
 
+msgctxt "#31010"
+msgid "Found"
+msgstr "Βρέθηκαν"
+
+msgctxt "#31016"
+msgid "Shows"
+msgstr "Εκπομπές"
+
+msgctxt "#31017"
+msgid "HD Movies"
+msgstr "Ταινίες HD"
+
+msgctxt "#31018"
+msgid "Movie Sets"
+msgstr "Ομάδες Ταινιών"
+
+msgctxt "#31019"
+msgid "Trailers"
+msgstr "Διαφημιστικά"
+
+msgctxt "#31020"
+msgid "Streams"
+msgstr "Ροές"
+
+msgctxt "#31021"
+msgid "TV Shows"
+msgstr "Τηλ. Σειρές"
+
 msgctxt "#31022"
 msgid "Music - Files"
 msgstr "Μουσική - Αρχεία"
@@ -231,6 +259,26 @@ msgstr "Προβολή Πλοκής κατά την Παύση"
 msgctxt "#31074"
 msgid "Clean Library"
 msgstr "Εκκαθάριση Συλλογής"
+
+msgctxt "#31075"
+msgid "Show Now Playing Info"
+msgstr "Εμφάνιση Πληροφοριών 'Τώρα Εκτελείται'"
+
+msgctxt "#31076"
+msgid "Auto Start Visualisation With Audio Playback"
+msgstr "Αυτόματη Έναρξη Οπτικοποίησης κατά την Αναπαραγωγή Μουσικής"
+
+msgctxt "#31077"
+msgid "Trakt List Manager"
+msgstr "Διαχείριση Λίστας Trakt"
+
+msgctxt "#31078"
+msgid "Certification"
+msgstr "Πιστοποίηση"
+
+msgctxt "#31079"
+msgid "Enable Minimum Specifications Settings"
+msgstr "Ενεργοποίηση Ρυθμίσεων Ελάχιστων Απαιτήσεων"
 
 msgctxt "#31080"
 msgid "Cenralised FanArt Directories"
@@ -720,9 +768,17 @@ msgctxt "#31201"
 msgid "User Selection Ten"
 msgstr "Επιλογή Χρήστη Δέκα"
 
+msgctxt "#31202"
+msgid "Show Year in Movie Title"
+msgstr "Εμφάνιση Έτους στον Τίτλο της Ταινίας"
+
 msgctxt "#31203"
 msgid "Choose Your Song"
 msgstr "Επιλογή Τραγουδιού"
+
+msgctxt "#31204"
+msgid "Settings level"
+msgstr "Επίπεδο ρυθμίσεων"
 
 msgctxt "#31205"
 msgid "Lyrics Source"
@@ -747,6 +803,34 @@ msgstr "Εμφάνιση Ονομάτων Πρόσθετων"
 msgctxt "#31210"
 msgid "Certification Rating Scraper Prefix"
 msgstr "Πρόθεμα του Scraper Δείκτη Καταλληλότητας"
+
+msgctxt "#31211"
+msgid "Music Physical Folder"
+msgstr "Φυσικός Φάκελος Μουσικής"
+
+msgctxt "#31212"
+msgid "Music Path"
+msgstr "Μουσική Διαδρομή"
+
+msgctxt "#31213"
+msgid "Recently Added"
+msgstr "Προστέθηκαν Πρόσφατα"
+
+msgctxt "#31214"
+msgid "Recently Played"
+msgstr "Πρόσφατα Αναπαραχθέντα"
+
+msgctxt "#31215"
+msgid "Suggested"
+msgstr "Προτεινόμενα"
+
+msgctxt "#31216"
+msgid "Show Suggested Media Button"
+msgstr "Εμφάνιση Πλήκτρου Προτεινόμενων"
+
+msgctxt "#31217"
+msgid "Search"
+msgstr "Αναζήτηση"
 
 msgctxt "#31300"
 msgid "Current Temp"
@@ -983,6 +1067,10 @@ msgstr "Το Widget Λίστας Αναπ/γής να Εμφανίζει Μόν�
 msgctxt "#31375"
 msgid "Configure Script.Artwork Organizer"
 msgstr "Διαμόρφωση του Script.Artwork Organizer"
+
+msgctxt "#31376"
+msgid "Enable System Weather"
+msgstr "Ενεργοποίηση Καιρού Συστήματος"
 
 msgctxt "#31390"
 msgid "Skin Default"
@@ -1299,3 +1387,39 @@ msgstr "Ανάκτηση πρόγνωσης καιρού..."
 msgctxt "#31910"
 msgid "Map & Alerts"
 msgstr "Χάρτης & Προειδοποιήσεις"
+
+msgctxt "#31945"
+msgid "Use Live Backgrounds"
+msgstr "Χρήση Live Υποβάθρων"
+
+msgctxt "#31946"
+msgid "Enable Holiday Theme"
+msgstr "Ενεργοποίηση Εορταστικού Θέματος"
+
+msgctxt "#31947"
+msgid "Holiday Theme"
+msgstr "Εορταστικό Θέμα"
+
+msgctxt "#31948"
+msgid "Enable Wrap Around Home Menu"
+msgstr "Ενεργοποίηση Κυλιόμενου Κεντρικού Μενού"
+
+msgctxt "#31949"
+msgid "New"
+msgstr "Νέο"
+
+msgctxt "#31950"
+msgid "In Progress"
+msgstr "Σε Εξέλιξη"
+
+msgctxt "#31951"
+msgid "XBMC Command"
+msgstr "Εντολή XBMC"
+
+msgctxt "#31952"
+msgid "Enable Play Disc Menu Item"
+msgstr "Ενεργοποίηση Αντικειμένου Μενού Αναπαραγωγής Δίσκου"
+
+msgctxt "#31953"
+msgid "Enable New Media Banners"
+msgstr "Ενεργοποίηση Νέων Πανό Πολυμέσων"

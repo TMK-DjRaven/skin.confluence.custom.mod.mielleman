@@ -44,6 +44,10 @@ msgctxt "#31009"
 msgid "Total Duration"
 msgstr "Durasi Total"
 
+msgctxt "#31019"
+msgid "Trailers"
+msgstr "Trailer"
+
 msgctxt "#31022"
 msgid "Music - Files"
 msgstr "Berkas - Musik"
@@ -204,9 +208,17 @@ msgctxt "#31154"
 msgid "Preset"
 msgstr "Presets"
 
+msgctxt "#31217"
+msgid "Search"
+msgstr "Cari"
+
 msgctxt "#31327"
 msgid "Resolution"
 msgstr "Resolusi"
+
+msgctxt "#31333"
+msgid "Startup"
+msgstr "Memulai"
 
 msgctxt "#31603"
 msgid "Biography"

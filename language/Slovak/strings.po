@@ -44,6 +44,22 @@ msgctxt "#31009"
 msgid "Total Duration"
 msgstr "Celkové trvanie"
 
+msgctxt "#31010"
+msgid "Found"
+msgstr "Nájdené"
+
+msgctxt "#31018"
+msgid "Movie Sets"
+msgstr "Filmové zbierky"
+
+msgctxt "#31019"
+msgid "Trailers"
+msgstr "Upútavky na film"
+
+msgctxt "#31021"
+msgid "TV Shows"
+msgstr "TV Seriály"
+
 msgctxt "#31022"
 msgid "Music - Files"
 msgstr "Hudba - Súbory"
@@ -87,6 +103,10 @@ msgstr "Obrázky"
 msgctxt "#31033"
 msgid "Info"
 msgstr "Informácie"
+
+msgctxt "#31035"
+msgid "Low List"
+msgstr "Nízky zoznam"
 
 msgctxt "#31036"
 msgid "Coverflow"
@@ -248,13 +268,33 @@ msgctxt "#31154"
 msgid "Preset"
 msgstr "Predvoľby"
 
+msgctxt "#31163"
+msgid "Radio 105"
+msgstr "Radio 105"
+
+msgctxt "#31175"
+msgid "Recent Movies"
+msgstr "Najnovšie filmy"
+
 msgctxt "#31176"
 msgid "Random Movies"
 msgstr "Náhodné filmy"
 
+msgctxt "#31178"
+msgid "Recent Episodes"
+msgstr "Najnovšie epizódy"
+
+msgctxt "#31181"
+msgid "Recent Albums"
+msgstr "Najnovšie albumy"
+
 msgctxt "#31203"
 msgid "Choose Your Song"
 msgstr "Vyberte Vašu skladbu"
+
+msgctxt "#31204"
+msgid "Settings level"
+msgstr "Úroveň nastavenia"
 
 msgctxt "#31205"
 msgid "Lyrics Source"
@@ -271,6 +311,14 @@ msgstr "Hľadať viac položiek"
 msgctxt "#31208"
 msgid "Upcoming Episodes"
 msgstr "Pripravované časti"
+
+msgctxt "#31213"
+msgid "Recently Added"
+msgstr "Posledné pridané"
+
+msgctxt "#31217"
+msgid "Search"
+msgstr "Hľadať"
 
 msgctxt "#31300"
 msgid "Current Temp"

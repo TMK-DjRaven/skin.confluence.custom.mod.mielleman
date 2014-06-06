@@ -44,6 +44,22 @@ msgctxt "#31009"
 msgid "Total Duration"
 msgstr "Durata totale"
 
+msgctxt "#31010"
+msgid "Found"
+msgstr "Trovato"
+
+msgctxt "#31018"
+msgid "Movie Sets"
+msgstr "Set Cinematografici"
+
+msgctxt "#31019"
+msgid "Trailers"
+msgstr "Trailer"
+
+msgctxt "#31021"
+msgid "TV Shows"
+msgstr "Serie TV"
+
 msgctxt "#31022"
 msgid "Music - Files"
 msgstr "Files - Musica"
@@ -208,6 +224,10 @@ msgctxt "#31121"
 msgid "Concerts"
 msgstr "Concerti"
 
+msgctxt "#31123"
+msgid "OpenElec OS"
+msgstr "OpenElec OS"
+
 msgctxt "#31125"
 msgid "Show Background \"Now Playing\" Visualization"
 msgstr "Mostra nello Sfondo Visualizzazioni il nome del file \"In Riproduzione\""
@@ -256,6 +276,14 @@ msgctxt "#31150"
 msgid "Multi Image"
 msgstr "Immagine Multipla"
 
+msgctxt "#31152"
+msgid "Enable Kiosk Mode"
+msgstr "Abilita modalità chiosco"
+
+msgctxt "#31153"
+msgid "Home Menu"
+msgstr "Menù Principale"
+
 msgctxt "#31154"
 msgid "Preset"
 msgstr "Preset"
@@ -264,13 +292,33 @@ msgctxt "#31163"
 msgid "Radio 105"
 msgstr "Radio 105"
 
+msgctxt "#31164"
+msgid "Monte Carlo"
+msgstr "Monte Carlo"
+
+msgctxt "#31165"
+msgid "Virgin Rock"
+msgstr "Virgin Rock"
+
+msgctxt "#31175"
+msgid "Recent Movies"
+msgstr "Film recenti"
+
 msgctxt "#31176"
 msgid "Random Movies"
 msgstr "Film casuali"
 
+msgctxt "#31178"
+msgid "Recent Episodes"
+msgstr "Episodi recenti"
+
 msgctxt "#31179"
 msgid "Random Episodes"
 msgstr "Episodi casuali"
+
+msgctxt "#31181"
+msgid "Recent Albums"
+msgstr "Album recenti"
 
 msgctxt "#31189"
 msgid "Theme"
@@ -295,6 +343,18 @@ msgstr "Cerca altri elementi"
 msgctxt "#31208"
 msgid "Upcoming Episodes"
 msgstr "Prossimi Episodi"
+
+msgctxt "#31213"
+msgid "Recently Added"
+msgstr "Aggiunti di Recente"
+
+msgctxt "#31214"
+msgid "Recently Played"
+msgstr "Avviati Di Recente"
+
+msgctxt "#31217"
+msgid "Search"
+msgstr "Cerca"
 
 msgctxt "#31300"
 msgid "Current Temp"
@@ -636,6 +696,10 @@ msgctxt "#31706"
 msgid "Brazil"
 msgstr "Brasile"
 
+msgctxt "#31707"
+msgid "Denmark"
+msgstr "Danimarca"
+
 msgctxt "#31708"
 msgid "Canada"
 msgstr "Canada"
@@ -643,6 +707,10 @@ msgstr "Canada"
 msgctxt "#31709"
 msgid "Ireland"
 msgstr "Irlanda"
+
+msgctxt "#31710"
+msgid "Netherlands"
+msgstr "Olanda"
 
 msgctxt "#31901"
 msgid "36 Hour Forecast"
@@ -675,3 +743,11 @@ msgstr "Recuper informazioni previsioni..."
 msgctxt "#31910"
 msgid "Map & Alerts"
 msgstr "Mappa e notifiche"
+
+msgctxt "#31949"
+msgid "New"
+msgstr "Nuovo"
+
+msgctxt "#31951"
+msgid "XBMC Command"
+msgstr "Comando XBMC"

@@ -48,6 +48,34 @@ msgctxt "#31009"
 msgid "Total Duration"
 msgstr "Insgesamte Laufzeit"
 
+msgctxt "#31010"
+msgid "Found"
+msgstr "Gefunden"
+
+msgctxt "#31016"
+msgid "Shows"
+msgstr "Shows"
+
+msgctxt "#31017"
+msgid "HD Movies"
+msgstr "HD Filme"
+
+msgctxt "#31018"
+msgid "Movie Sets"
+msgstr "Film-Sets"
+
+msgctxt "#31019"
+msgid "Trailers"
+msgstr "Trailers"
+
+msgctxt "#31020"
+msgid "Streams"
+msgstr "Streams"
+
+msgctxt "#31021"
+msgid "TV Shows"
+msgstr "Serien"
+
 msgctxt "#31022"
 msgid "Music - Files"
 msgstr "Musik - Dateien"
@@ -150,7 +178,7 @@ msgstr "Sortieren: Absteigend"
 
 msgctxt "#31054"
 msgid "Configure Smart Playlist"
-msgstr "Konfiguriere Smart-Playlist"
+msgstr "Smart-Wiedergabeliste konfigurieren"
 
 msgctxt "#31055"
 msgid "Open playlist"
@@ -232,6 +260,26 @@ msgctxt "#31074"
 msgid "Clean Library"
 msgstr "Bibliothek aufräumen"
 
+msgctxt "#31075"
+msgid "Show Now Playing Info"
+msgstr "Zeige 'Läuft gerade' Informationen"
+
+msgctxt "#31076"
+msgid "Auto Start Visualisation With Audio Playback"
+msgstr "Auto Start Visualisation mit Audio Playback"
+
+msgctxt "#31077"
+msgid "Trakt List Manager"
+msgstr "Titellisten Manager"
+
+msgctxt "#31078"
+msgid "Certification"
+msgstr "Zertifizierung"
+
+msgctxt "#31079"
+msgid "Enable Minimum Specifications Settings"
+msgstr "Aktiviere Minimale Spezifikationseinstellungen"
+
 msgctxt "#31080"
 msgid "Cenralised FanArt Directories"
 msgstr "Zentralisierte FanArt Verzeichnisse"
@@ -266,7 +314,7 @@ msgstr "Wiederhole einen ein"
 
 msgctxt "#31088"
 msgid "Next Tracks"
-msgstr "Playlist"
+msgstr "Wiedergabeliste"
 
 msgctxt "#31089"
 msgid "Enable Traditional Case and Disc"
@@ -482,7 +530,7 @@ msgstr "Video-OSD"
 
 msgctxt "#31142"
 msgid "Shortcuts"
-msgstr "Shortcuts"
+msgstr "Verknüpfungen"
 
 msgctxt "#31143"
 msgid "Menu Item"
@@ -626,15 +674,15 @@ msgstr "Vorgeschlagene Filme"
 
 msgctxt "#31178"
 msgid "Recent Episodes"
-msgstr "Letzte Episoden"
+msgstr "Letzte Folgen"
 
 msgctxt "#31179"
 msgid "Random Episodes"
-msgstr "Zufällige Episoden"
+msgstr "Zufällige Folgen"
 
 msgctxt "#31180"
 msgid "Suggested Episodes"
-msgstr "Vorgeschlagene Episoden"
+msgstr "Vorgeschlagene Folgen"
 
 msgctxt "#31181"
 msgid "Recent Albums"
@@ -690,7 +738,7 @@ msgstr "Ungesehene TV Serien"
 
 msgctxt "#31194"
 msgid "UnWatched Episodes"
-msgstr "Ungesehene Folgen"
+msgstr "UnGesehene Folgen"
 
 msgctxt "#31195"
 msgid "Use Thumbnail"
@@ -720,9 +768,17 @@ msgctxt "#31201"
 msgid "User Selection Ten"
 msgstr "Benutzerauswahl zehn"
 
+msgctxt "#31202"
+msgid "Show Year in Movie Title"
+msgstr "Jahr im Filmtitel anzeigen"
+
 msgctxt "#31203"
 msgid "Choose Your Song"
 msgstr "Wähle Deinen Song"
+
+msgctxt "#31204"
+msgid "Settings level"
+msgstr "Einstellungsebene"
 
 msgctxt "#31205"
 msgid "Lyrics Source"
@@ -738,7 +794,7 @@ msgstr "Finde mehr"
 
 msgctxt "#31208"
 msgid "Upcoming Episodes"
-msgstr "Kommende Episoden"
+msgstr "Kommende Folgen"
 
 msgctxt "#31209"
 msgid "Show AddOn Names"
@@ -747,6 +803,34 @@ msgstr "Zeige Addon Namen"
 msgctxt "#31210"
 msgid "Certification Rating Scraper Prefix"
 msgstr "Zertifizierungs Bewertungs Scraper Prefix"
+
+msgctxt "#31211"
+msgid "Music Physical Folder"
+msgstr "Physischer Musikordner"
+
+msgctxt "#31212"
+msgid "Music Path"
+msgstr "Musikpfad"
+
+msgctxt "#31213"
+msgid "Recently Added"
+msgstr "Kürzlich Hinzugefügt"
+
+msgctxt "#31214"
+msgid "Recently Played"
+msgstr "Zuletzt gespielt"
+
+msgctxt "#31215"
+msgid "Suggested"
+msgstr "Vorgeschlagen"
+
+msgctxt "#31216"
+msgid "Show Suggested Media Button"
+msgstr "Zeige Empfohlene Medien Knopf"
+
+msgctxt "#31217"
+msgid "Search"
+msgstr "Suchen"
 
 msgctxt "#31300"
 msgid "Current Temp"
@@ -962,7 +1046,7 @@ msgstr "Aktiviere Watch it Later"
 
 msgctxt "#31370"
 msgid "Configure script.simpleplaylists"
-msgstr "Konfiguriere script.simpleplaylists"
+msgstr "script.simpleplaylists konfigurieren"
 
 msgctxt "#31371"
 msgid "Configure script.globalsearch"
@@ -970,7 +1054,7 @@ msgstr "Konfiguriere script.globalsearch"
 
 msgctxt "#31372"
 msgid "Enable Playlist Widget Script"
-msgstr "Aktiviere Playlist Widget Skript"
+msgstr "Wiedergabelisten-Widget-Skript aktivieren"
 
 msgctxt "#31373"
 msgid "Playlist Widget Shows Recent not Random Items"
@@ -983,6 +1067,10 @@ msgstr "Wiedergabelisten-Script zeigt nur ungesehene Einträge"
 msgctxt "#31375"
 msgid "Configure Script.Artwork Organizer"
 msgstr "Konfiguriere Script.Artwork Organizer"
+
+msgctxt "#31376"
+msgid "Enable System Weather"
+msgstr "Aktiviere Systemwetter"
 
 msgctxt "#31390"
 msgid "Skin Default"
@@ -1299,3 +1387,39 @@ msgstr "Lade Wetterbericht..."
 msgctxt "#31910"
 msgid "Map & Alerts"
 msgstr "Karte & Alarme"
+
+msgctxt "#31945"
+msgid "Use Live Backgrounds"
+msgstr "Verwende lebendige Hintergründe"
+
+msgctxt "#31946"
+msgid "Enable Holiday Theme"
+msgstr "Aktiviere Urlaubs-Thema"
+
+msgctxt "#31947"
+msgid "Holiday Theme"
+msgstr "Urlaubs-Thema"
+
+msgctxt "#31948"
+msgid "Enable Wrap Around Home Menu"
+msgstr "Einhüllendes Home-Menü aktivieren"
+
+msgctxt "#31949"
+msgid "New"
+msgstr "Neu"
+
+msgctxt "#31950"
+msgid "In Progress"
+msgstr "Im Gange"
+
+msgctxt "#31951"
+msgid "XBMC Command"
+msgstr "XBMC-Befehl"
+
+msgctxt "#31952"
+msgid "Enable Play Disc Menu Item"
+msgstr "Menüelement zur Disc-Wiedergabe aktivieren"
+
+msgctxt "#31953"
+msgid "Enable New Media Banners"
+msgstr "Neue Medienbanner aktivieren"

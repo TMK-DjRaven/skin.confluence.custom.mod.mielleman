@@ -48,6 +48,34 @@ msgctxt "#31009"
 msgid "Total Duration"
 msgstr "Durée totale"
 
+msgctxt "#31010"
+msgid "Found"
+msgstr "Trouvé"
+
+msgctxt "#31016"
+msgid "Shows"
+msgstr "Séries"
+
+msgctxt "#31017"
+msgid "HD Movies"
+msgstr "Films HD"
+
+msgctxt "#31018"
+msgid "Movie Sets"
+msgstr "Sagas"
+
+msgctxt "#31019"
+msgid "Trailers"
+msgstr "Bande-annonce"
+
+msgctxt "#31020"
+msgid "Streams"
+msgstr "Flux"
+
+msgctxt "#31021"
+msgid "TV Shows"
+msgstr "Séries TV"
+
 msgctxt "#31022"
 msgid "Music - Files"
 msgstr "Musique - Fichiers"
@@ -244,6 +272,10 @@ msgctxt "#31133"
 msgid "Subtitle Add-on"
 msgstr "Extension gérant les sous-titres"
 
+msgctxt "#31134"
+msgid "Buttons"
+msgstr "Boutons"
+
 msgctxt "#31138"
 msgid "Hidden"
 msgstr "Caché"
@@ -372,6 +404,10 @@ msgctxt "#31203"
 msgid "Choose Your Song"
 msgstr "Choisissez votre chanson"
 
+msgctxt "#31204"
+msgid "Settings level"
+msgstr "Niveau de réglages"
+
 msgctxt "#31205"
 msgid "Lyrics Source"
 msgstr "Source pour les paroles"
@@ -387,6 +423,22 @@ msgstr "Trouver plus d'éléments"
 msgctxt "#31208"
 msgid "Upcoming Episodes"
 msgstr "Prochains épisodes"
+
+msgctxt "#31213"
+msgid "Recently Added"
+msgstr "Récemment ajouté"
+
+msgctxt "#31214"
+msgid "Recently Played"
+msgstr "Lus récemment"
+
+msgctxt "#31215"
+msgid "Suggested"
+msgstr "Suggéré"
+
+msgctxt "#31217"
+msgid "Search"
+msgstr "Recherche"
 
 msgctxt "#31300"
 msgid "Current Temp"
@@ -799,3 +851,7 @@ msgstr "Récupération des prévisions météo…"
 msgctxt "#31910"
 msgid "Map & Alerts"
 msgstr "Carte & Alertes"
+
+msgctxt "#31949"
+msgid "New"
+msgstr "Nouvelle"

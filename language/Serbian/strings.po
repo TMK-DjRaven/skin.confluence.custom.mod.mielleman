@@ -32,6 +32,10 @@ msgctxt "#31005"
 msgid "Hide Information"
 msgstr "Sakrij info."
 
+msgctxt "#31019"
+msgid "Trailers"
+msgstr "Najava"
+
 msgctxt "#31022"
 msgid "Music - Files"
 msgstr "Muzika - Datoteke"
@@ -207,6 +211,14 @@ msgstr "Izaberite vašu pesmu"
 msgctxt "#31205"
 msgid "Lyrics Source"
 msgstr "Izvor tekstova pesama"
+
+msgctxt "#31213"
+msgid "Recently Added"
+msgstr "Nedavno dodato"
+
+msgctxt "#31217"
+msgid "Search"
+msgstr "Pretraži"
 
 msgctxt "#31300"
 msgid "Current Temp"

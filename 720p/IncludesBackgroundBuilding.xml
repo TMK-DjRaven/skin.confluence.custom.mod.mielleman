@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <includes>
 	<include name="CommonBackground">
-		<control type="multiimage">
-			<include>Dimensions_Fullscreen</include>
-			<imagepath background="true">$VAR[HomeMenuItemBackground]</imagepath>
-			<timeperimage>8000</timeperimage>
-			<randomize>true</randomize>
-			<fadetime>1000</fadetime>
-			<visible>Window.IsVisible(home) + !Skin.HasSetting(GlobalBackground)</visible>
+		<control type="group">
+			<control type="multiimage">
+				<include>Dimensions_Fullscreen</include>
+				<imagepath background="true">$VAR[HomeMenuItemBackground]</imagepath>
+				<timeperimage>8000</timeperimage>
+				<randomize>true</randomize>
+				<fadetime>1000</fadetime>
+				<visible>!StringCompare(Container(9000).ListItem.Property(Background),LiveContent) | StringCompare(Container(9000).ListItem.Property(Background),LiveContent) + !SubString(Window(Home).Property(SkinWidgets_RandomItems),true)</visible>
+			</control>
+			<control type="group">
+				<include>LiveContentBackgrounds</include>
+				<visible>StringCompare(Container(9000).ListItem.Property(Background),LiveContent) + SubString(Window(Home).Property(SkinWidgets_RandomItems),true)</visible>
+			</control>
+			<visible>Window.IsVisible(home) + !Skin.HasSetting(GlobalBackground) + !Skin.HasSetting(HolidayEffects)</visible>
 		</control>
 		<control type="group">
 			<control type="multiimage">
@@ -36,10 +43,31 @@
 				<visible>Window.IsVisible(home)</visible>
 				<visible>!Skin.HasSetting(GlobalWeatherFanart) + !IsEmpty(Skin.String(CustomBackgroundPath))</visible>
 			</control>
-			<visible>Skin.HasSetting(GlobalBackground)</visible>
+			<visible>Skin.HasSetting(GlobalBackground) + !Skin.HasSetting(HolidayEffects)</visible>
 		</control>
 		<control type="group">
-			<visible>!Skin.HasSetting(HideBackGroundFanart) + !Skin.HasSetting(HideWidgetFanArt)</visible>
+			<control type="image">
+				<description>Holiday Theme Default Image</description>
+				<include>Dimensions_Fullscreen</include>
+				<aspectratio>scale</aspectratio>
+				<include>VisibleFadeEffect</include>
+				<texture>special://skin/extras/Holiday/xmastree.jpg</texture>
+				<visible>IsEmpty(Skin.String(HolidayThemePath)) | !Window.IsVisible(home) + !IsEmpty(Skin.String(HolidayThemePath))</visible>
+			</control>
+			<control type="multiimage">
+				<description>Holiday Theme Images</description>
+				<include>Dimensions_Fullscreen</include>
+				<imagepath background="true">$INFO[Skin.String(HolidayThemePath)]</imagepath>
+				<timeperimage>8000</timeperimage>
+				<randomize>true</randomize>
+				<fadetime>1000</fadetime>
+				<visible>Window.IsVisible(home)</visible>
+				<visible>!IsEmpty(Skin.String(HolidayThemePath))</visible>
+			</control>
+			<visible>Skin.HasSetting(HolidayEffects)</visible>
+		</control>
+		<control type="group">
+			<visible>!Skin.HasSetting(HideBackGroundFanart) + !Skin.HasSetting(HideWidgetFanArt) + !Skin.HasSetting(HolidayEffects)</visible>
 			<control type="image">
 				<description>Recently Added Movies Background Image</description>
 				<include>Dimensions_Fullscreen</include>
@@ -249,6 +277,40 @@
 				<fadetime>FanartCrossfadeTime</fadetime>
 				<include>Window_OpenClose_Animation</include>
 				<visible>!StringCompare(ListItem.Label,..) + Container.Content(genres)</visible>
+			</control>
+			<control type="image">
+				<posx>-350</posx>
+				<posy>440r</posy>
+				<width>720</width>
+				<height>720</height>
+				<include>BackgroundFade</include>
+				<fadetime>FanartCrossfadeTime</fadetime>
+				<aspectratio>stretch</aspectratio>
+				<texture background="true">$INFO[ListItem.Art(discart)]</texture>
+				<animation effect="rotate" end="-45" center="auto" time="0" condition="true">Conditional</animation>
+				<visible>!IsEmpty(ListItem.Art(discart))</visible>
+			</control>
+			<control type="image">
+				<posx>-5</posx>
+				<posy>570r</posy>
+				<width>512</width>
+				<height>512</height>
+				<include>BackgroundFade</include>
+				<fadetime>FanartCrossfadeTime</fadetime>
+				<aspectratio align="left" aligny="bottom">keep</aspectratio>
+				<texture background="true">$INFO[ListItem.Art(characterart)]</texture>
+				<visible>IsEmpty(ListItem.Art(discart)) + !IsEmpty(ListItem.Art(characterart)) + !Container.Content(Episodes)</visible>
+			</control>
+			<control type="image">
+				<posx>-5</posx>
+				<posy>570r</posy>
+				<width>512</width>
+				<height>512</height>
+				<include>BackgroundFade</include>
+				<fadetime>FanartCrossfadeTime</fadetime>
+				<aspectratio align="left" aligny="bottom">keep</aspectratio>
+				<texture background="true">$INFO[ListItem.Art(tvshow.characterart)]</texture>
+				<visible>IsEmpty(ListItem.Art(discart)) + !IsEmpty(ListItem.Art(tvshow.characterart)) + Container.Content(Episodes)</visible>
 			</control>
 		</control>
 		<control type="image">

@@ -48,6 +48,30 @@ msgctxt "#31009"
 msgid "Total Duration"
 msgstr "총 재생시간"
 
+msgctxt "#31010"
+msgid "Found"
+msgstr "찾음"
+
+msgctxt "#31017"
+msgid "HD Movies"
+msgstr "HD 영화"
+
+msgctxt "#31018"
+msgid "Movie Sets"
+msgstr "영화 시리즈"
+
+msgctxt "#31019"
+msgid "Trailers"
+msgstr "예고편"
+
+msgctxt "#31020"
+msgid "Streams"
+msgstr "스트림"
+
+msgctxt "#31021"
+msgid "TV Shows"
+msgstr "TV 쇼"
+
 msgctxt "#31022"
 msgid "Music - Files"
 msgstr "음악 - 파일"
@@ -290,11 +314,15 @@ msgstr "가사"
 
 msgctxt "#31132"
 msgid "Lyrics Add-on"
-msgstr "가사 추가기능"
+msgstr "가사 애드온"
 
 msgctxt "#31133"
 msgid "Subtitle Add-on"
-msgstr "자막 추가기능"
+msgstr "자막 애드온"
+
+msgctxt "#31134"
+msgid "Buttons"
+msgstr "버튼"
 
 msgctxt "#31138"
 msgid "Hidden"
@@ -351,6 +379,10 @@ msgstr "전체 배경화면 사용"
 msgctxt "#31152"
 msgid "Enable Kiosk Mode"
 msgstr "전시모드 사용"
+
+msgctxt "#31153"
+msgid "Home Menu"
+msgstr "홈 메뉴"
 
 msgctxt "#31154"
 msgid "Preset"
@@ -424,6 +456,10 @@ msgctxt "#31203"
 msgid "Choose Your Song"
 msgstr "노래 선택"
 
+msgctxt "#31204"
+msgid "Settings level"
+msgstr "설정 수준"
+
 msgctxt "#31205"
 msgid "Lyrics Source"
 msgstr "가사 소스"
@@ -439,6 +475,22 @@ msgstr "더 찾아보기"
 msgctxt "#31208"
 msgid "Upcoming Episodes"
 msgstr "방송 예정 에피소드"
+
+msgctxt "#31213"
+msgid "Recently Added"
+msgstr "최근 추가"
+
+msgctxt "#31214"
+msgid "Recently Played"
+msgstr "최근 재생"
+
+msgctxt "#31215"
+msgid "Suggested"
+msgstr "추천"
+
+msgctxt "#31217"
+msgid "Search"
+msgstr "찾기"
 
 msgctxt "#31300"
 msgid "Current Temp"
@@ -578,7 +630,7 @@ msgstr "되감기"
 
 msgctxt "#31355"
 msgid "Movie menu"
-msgstr "자막 추가기능"
+msgstr "자막 애드온"
 
 msgctxt "#31356"
 msgid "Download Subtitles"
@@ -622,7 +674,7 @@ msgstr "[B]스킨 설정[/B][CR][CR]Confluence 스킨 설정 · 홈 메뉴 항�
 
 msgctxt "#31408"
 msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from xbmc.org[CR]Modify Add-on settings"
-msgstr "[B]애드온 설정[/B][CR][CR]설치한 추가기능 관리 · xbmc.org에서 추가기능 찾기 및 설치[CR]추가기능 설정 변경"
+msgstr "[B]애드온 설정[/B][CR][CR]설치한 애드온 관리 · xbmc.org에서 애드온 찾기 및 설치[CR]애드온 설정 변경"
 
 msgctxt "#31409"
 msgid "[B]CONFIGURE TV SETTINGS[/B][CR][CR]Change fullscreen info · Manage EPG data settings"
@@ -859,3 +911,11 @@ msgstr "날씨 정보를 가져오는 중..."
 msgctxt "#31910"
 msgid "Map & Alerts"
 msgstr "지도와 경보"
+
+msgctxt "#31949"
+msgid "New"
+msgstr "새"
+
+msgctxt "#31951"
+msgid "XBMC Command"
+msgstr "XBMC 명령"
